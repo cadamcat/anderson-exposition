@@ -11,7 +11,7 @@ Each mathematical or factual claim of the article, its source, and its status: *
 | 5 | 1.1 | $h_\omega\cong H_{\lambda,\omega}+c$ with $\lambda=(b-a)/2$, $c=(a+b)/2$, via $(-1)^{x_1+\dots+x_d}$ | OpenAI2026 §1.1 (sign); elementary (affine law); Lean `Packages.lawTransport`, `signTransport`, `challengeBridge` | proved (elementary) and Lean |
 | 6 | 1.2 | Lebesgue decomposition of spectral measures; definitions of purely a.c. and nontrivial | standard | proved |
 | 7 | 1.2 | RAGE / transport interpretation of spectral types | standard physics reading | heuristic |
-| 8 | 1.2 | $\operatorname{Im}F(E+i0)$ is $\pi\times$ a.c. density; singular part where it is infinite; criterion via finite $\limsup$ | Teschl2009 Theorem 3.23, Corollary 3.24 | proved |
+| 8 | 1.2 | $\mathrm{Im}\,F(E+i0)$ is $\pi\times$ a.c. density; singular part where it is infinite; criterion via finite $\limsup$ | Teschl2009 Theorem 3.23, Corollary 3.24 | proved |
 | 9 | 1.3 | Simon's expected picture (a.c. subinterval, dense pure point complement, shrinking with $b-a$); "any a.c. spectrum would cause a stir" (paraphrase) | Simon2000 p. 284 | record |
 | 10 | 1.3 | Problems 2 and 3 as stated | Simon2000 p. 284 | record |
 | 11 | 2.1 | Pure point spectrum for every disorder in $d=1$ | KunzSouillard1980; Simon2000 p. 284 | proved |
@@ -35,7 +35,7 @@ Each mathematical or factual claim of the article, its source, and its status: *
 | 29 | 4.2 | Unrevealed remainder replaced by damping $t_n$; final damping $\eta=s_m$ with complete true potentials | OpenAI2026 §§2.1–2.3, §8.3 | claimed |
 | 30 | 4.2 | Self-energy / mean-field reading of $r_i=g_{ii}$ | ours | heuristic |
 | 31 | 4.3 | Active/terminal split; Schur complement at real $E$; state $g,h,K,F,q$ | OpenAI2026 §2.3 | record (definitions) |
-| 32 | 4.3 | Ward identity $h\,\mathrm{diag}(p)h^*=\operatorname{Im}g$, $Fp=q$ | OpenAI2026 eq. (5); derivation checked by hand in the article; Lean `Packages.ward` | proved (elementary) |
+| 32 | 4.3 | Ward identity $h\,\mathrm{diag}(p)h^*=\mathrm{Im}\,g$, $Fp=q$ | OpenAI2026 eq. (5); derivation checked by hand in the article; Lean `Packages.ward` | proved (elementary) |
 | 33 | 4.3 | $\partial g_{ii}/\partial r_j=K_{ij}$; linearization $I-K$; carried bounds $\|K\|\le1/3$, row fourth moments $\le t^{1+\delta}$, $\delta=0.01$ | OpenAI2026 §2.3–2.4 | claimed (bounds); derivative elementary |
 | 34 | 4.3 | $D$ is a graph Laplacian with weights $p_ip_jF_{ij}$; comparisons with $\Lambda$ | OpenAI2026 §2.3, eq. (7) | claimed (comparisons); Laplacian structure elementary |
 | 35 | 4.3 | Related controls in BDH and EKYY | OpenAI2026 §1.3 | record (manuscript's attribution) |

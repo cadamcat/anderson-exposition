@@ -8,7 +8,7 @@ Prepared by Yao Xu with AI assistance; the narration voice is synthesized with a
 
 - **Simon's Problem 1** (B. Simon, *Schrödinger operators in the twenty-first century*, 2000, Example 2.1 and Problem 1) asks for purely absolutely continuous spectrum in some energy range, for $\nu\ge3$ and suitable disorder widths.
 - **Claimed:** Theorem 1.1 of OpenAI, *Absolutely Continuous Spectrum for Weak-Disorder Anderson Models in Dimensions at Least Three* (manuscript dated September 23, 2026). The manuscript has not been independently refereed.
-- **Checked in Lean:** a Mathlib-only statement of Simon's problem for the uniform model, derived from Theorem 1.1, is proved in [anderson-ac-lean4](https://github.com/cadamcat/anderson-ac-lean4) v1.0.0 with only the standard axioms `propext`, `Classical.choice`, `Quot.sound`. Section 5 of the article states exactly what this does and does not certify.
+- **Checked in Lean:** the whole argument is formalized in [anderson-ac-lean4](https://github.com/cadamcat/anderson-ac-lean4) v1.0.0. Theorem 1.1 is proved in the vocabulary of OpenAI's Lean library, and from it a Mathlib-only statement of Simon's problem for the uniform model, with only the standard axioms `propext`, `Classical.choice`, `Quot.sound`. Section 5 of the article states exactly what this does and does not certify.
 
 ## Contents
 

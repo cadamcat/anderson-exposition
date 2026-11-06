@@ -2,7 +2,7 @@
 title: "Extended states in the Anderson model"
 subtitle: "Simon's Problem 1, a claimed proof of absolutely continuous spectrum in dimensions three and higher, and what its Lean formalization checks"
 author: "Yao Xu"
-date: "Version 1.0, November 2026"
+date: "Version 1.0.1, November 2026"
 ---
 
 # Summary {-}
@@ -11,7 +11,7 @@ In 2000 Barry Simon asked for a proof that the Anderson model on $\mathbb Z^\nu$
 
 In September 2026 OpenAI posted a 93-page manuscript [@OpenAI2026] whose Theorem 1.1 asserts exactly such a result: for every $d\ge3$ there is a threshold $\lambda_d>0$ such that, for $0<\lambda<\lambda_d$, almost surely a fixed open interval $I_d$ just above the bottom of the free band lies in the spectrum and carries only absolutely continuous spectrum, with nonzero weight. The manuscript has not been independently refereed.
 
-A consequence of Theorem 1.1 that answers Simon's question for the uniform model has been formalized in Lean 4 with Mathlib [@AndersonLean]. The final theorem states the problem in Mathlib's own vocabulary, in a file that imports nothing but Mathlib; it is proved without `sorry` and depends only on Lean's three standard axioms. The Lean kernel, an independent replay checker and a second, independently written kernel accept it.
+The whole argument has been formalized in Lean 4 with Mathlib [@AndersonLean]. Theorem 1.1 itself is proved in the build, in the vocabulary of OpenAI's Lean library, and from it a statement of Simon's problem for the uniform model, in a file that imports nothing but Mathlib. The final theorem is proved without `sorry` and depends only on Lean's three standard axioms. The Lean kernel, Lean's replay checker and a second, independently written kernel accept it.
 
 This article explains the problem, what was known, the architecture of the claimed proof, and exactly what the formal check does and does not certify. Section 6 reads the formal statement clause by clause. Throughout, each claim carries one of four labels, which the accompanying film also uses as colours:
 
@@ -46,7 +46,7 @@ Every vector $\psi$ has a *spectral measure* $\mu_\psi$, the finite Borel measur
 
 The physical meaning is the usual one, stated here as a **heuristic**: eigenvectors with exponentially decaying amplitude are localized states that stay near where they started, while absolutely continuous spectrum corresponds to states that spread through the lattice; the RAGE theorem makes the second half precise in a time-averaged sense. Anderson's 1958 paper [@Anderson1958] predicted that strong disorder localizes every state. The question of extended states is whether, in three or more dimensions and at weak disorder, some energies still carry transport.
 
-A standard tool converts spectral type into resolvent estimates (**proved**). The Borel transform $F_\psi(z)=\langle\psi,(H-z)^{-1}\psi\rangle$ has, for Lebesgue-almost every $E$, a boundary value $\operatorname{Im}F_\psi(E+i0)$; this equals $\pi$ times the density of the absolutely continuous part, and the singular part lives on the set where the boundary value is $+\infty$. In particular $\mu_\psi$ is purely absolutely continuous on $I$ if $\limsup_{\varepsilon\downarrow0}\operatorname{Im}F_\psi(E+i\varepsilon)<\infty$ for every $E\in I$ [@Teschl2009, Theorem 3.23 and Corollary 3.24]. Spectral questions therefore become questions about the Green function $G_{xy}(z)=\langle e_x,(H-z)^{-1}e_y\rangle$ as $z$ approaches the real axis.
+A standard tool converts spectral type into resolvent estimates (**proved**). The Borel transform $F_\psi(z)=\langle\psi,(H-z)^{-1}\psi\rangle$ has, for Lebesgue-almost every $E$, a boundary value $\mathrm{Im}\,F_\psi(E+i0)$; this equals $\pi$ times the density of the absolutely continuous part, and the singular part lives on the set where the boundary value is $+\infty$. In particular $\mu_\psi$ is purely absolutely continuous on $I$ if $\limsup_{\varepsilon\downarrow0}\mathrm{Im}\,F_\psi(E+i\varepsilon)<\infty$ for every $E\in I$ [@Teschl2009, Theorem 3.23 and Corollary 3.24]. Spectral questions therefore become questions about the Green function $G_{xy}(z)=\langle e_x,(H-z)^{-1}e_y\rangle$ as $z$ approaches the real axis.
 
 ## 1.3 Simon's problem
 
@@ -111,11 +111,11 @@ The whole construction aims at one finite statement [@OpenAI2026, Proposition 2.
 $$
 n_0=\lfloor\log_4(3/\lambda^2)\rfloor,\quad m\ge4n_0,\quad s_n=\tfrac{\lambda^2}{3}\,4^{\,n_0-n},\quad \eta=s_m,\quad t_n=s_n+\eta,
 $$
-and work on the periodic torus $\mathbb T_L=(\mathbb Z/L\mathbb Z)^d$ with $L=4^{20m}$ and $N=L^d$ sites [@OpenAI2026, eq. (3)]. The certificate is an event $\mathcal S_m$, with probability tending to one as $m\to\infty$, on which there are a set $A$ of at least half the sites and complex numbers $r_i$, $i\in A$, with $|r_i|\le C$ and $c\le\operatorname{Im}r_i\le C$, such that
+and work on the periodic torus $\mathbb T_L=(\mathbb Z/L\mathbb Z)^d$ with $L=4^{20m}$ and $N=L^d$ sites [@OpenAI2026, eq. (3)]. The certificate is an event $\mathcal S_m$, with probability tending to one as $m\to\infty$, on which there are a set $A$ of at least half the sites and complex numbers $r_i$, $i\in A$, with $|r_i|\le C$ and $c\le\mathrm{Im}\,r_i\le C$, such that
 $$
-\widehat G=\bigl(H_m-E-\eta\,\mathrm{diag}_A r\bigr)^{-1}\ \text{exists and}\ \operatorname{Im}\widehat G_{ii}\ge c\quad(i\in A).
+\widehat G=\bigl(H_m-E-\eta\,\mathrm{diag}_A r\bigr)^{-1}\ \text{exists and}\ \mathrm{Im}\,\widehat G_{ii}\ge c\quad(i\in A).
 $$
-Here $H_m$ is the periodic Anderson matrix with the *true* potentials at every site. In words: after adding a tiny imaginary damping $\eta\asymp4^{-m}$ on half of the sites, the diagonal of the Green function still has imaginary part bounded below, uniformly in the volume. A lower bound on $\operatorname{Im}G_{ii}$ as the damping goes to zero is the signature of absolutely continuous spectrum (Section 1.2); Section 9 makes this precise.
+Here $H_m$ is the periodic Anderson matrix with the *true* potentials at every site. In words: after adding a tiny imaginary damping $\eta\asymp4^{-m}$ on half of the sites, the diagonal of the Green function still has imaginary part bounded below, uniformly in the volume. A lower bound on $\mathrm{Im}\,G_{ii}$ as the damping goes to zero is the signature of absolutely continuous spectrum (Section 1.2); Section 9 makes this precise.
 
 The construction may use auxiliary randomness and may choose $A$ and $r$ adaptively; only the true potential vector must keep its product law.
 
@@ -133,13 +133,13 @@ As a **heuristic**: a small random term of variance $s$ shifts the averaged reso
 
 ## 4.3 The matrix state and the three controls
 
-At every moment the sites are split into *active* sites $A$, which still carry damping, and *terminal* sites $T$, which carry their complete true potential and have been removed by a Schur complement at the real energy $E$; let $M$ be the resulting real symmetric matrix on $A$ [@OpenAI2026, §2.3]. With $p_i=\operatorname{Im}r_i>0$ and a scale $t$, the state is
+At every moment the sites are split into *active* sites $A$, which still carry damping, and *terminal* sites $T$, which carry their complete true potential and have been removed by a Schur complement at the real energy $E$; let $M$ be the resulting real symmetric matrix on $A$ [@OpenAI2026, §2.3]. With $p_i=\mathrm{Im}\,r_i>0$ and a scale $t$, the state is
 $$
-g=(M-t\,\mathrm{diag}\,r)^{-1},\quad h=\sqrt t\,g,\quad K_{ij}=h_{ij}^2,\quad F_{ij}=|h_{ij}|^2,\quad q_i=\operatorname{Im}g_{ii}.
+g=(M-t\,\mathrm{diag}\,r)^{-1},\quad h=\sqrt t\,g,\quad K_{ij}=h_{ij}^2,\quad F_{ij}=|h_{ij}|^2,\quad q_i=\mathrm{Im}\,g_{ii}.
 $$
 The resolvent identity gives the *Ward identity* [@OpenAI2026, eq. (5)]
 $$
-h\,\mathrm{diag}(p)\,h^*=\operatorname{Im}g,\qquad Fp=q .
+h\,\mathrm{diag}(p)\,h^*=\mathrm{Im}\,g,\qquad Fp=q .
 $$
 (Indeed $g-g^*=g\bigl((g^*)^{-1}-g^{-1}\bigr)g^*=2it\,g\,\mathrm{diag}(p)\,g^*$, since $M$ is real symmetric.) Three quantities are carried through the whole construction [@OpenAI2026, §2.4]:
 
@@ -184,7 +184,7 @@ Dimension enters through three estimates [@OpenAI2026, §1.3]: a Fourier bound t
 Section 9 of the manuscript proves a conditional transfer [@OpenAI2026, Proposition 9.2]: if, for every fixed $E\in I$ and all large $m$, a certificate of the form above exists with probability at least $1/2$, then almost surely $I\subset\sigma(H)$, $\chi_I(H)\ell^2\subset\mathcal H_{\mathrm{ac}}(H)$ and $\langle e_0,\chi_I(H)e_0\rangle>0$. The argument has four steps.
 
 1. *A true finite-volume bound.* The certificate concerns a damped matrix; to compare it with the ordinary resolvent of the true operator, a narrow spectral projection of the true operator isolates the nearby eigenvalues, whose effect is bounded by the projection's rank. Own-site averaging bounds the expected rank. The averaging lemma [@OpenAI2026, Lemma 9.1] states that if a site's potential $s$ has a bounded density $\rho$, then $\int\rho(s)\,\mu_s(B)\,ds\le\|\rho\|_\infty|B|$ for the spectral measure $\mu_s$ of that site; this is in the tradition of Simon and Wolff's rank-one theory [@SimonWolff1986].
-2. *Infinite volume.* The bound passes to the infinite lattice and gives a positive expectation for a bounded function of $\operatorname{Im}G_{00}(E+i0)$.
+2. *Infinite volume.* The bound passes to the infinite lattice and gives a positive expectation for a bounded function of $\mathrm{Im}\,G_{00}(E+i0)$.
 3. *Propagation of positivity.* At almost every fixed energy, ergodicity and rank-one changes of a site potential propagate boundary positivity to every site, almost surely.
 4. *Purity.* Conditioning on the operator with one site removed produces an exceptional energy set that does not depend on that site's potential. Absolute continuity holds off this set, and spectral averaging removes the mass on the set itself.
 
@@ -194,7 +194,7 @@ Theorem 1.1 follows: for $d=3$ from Proposition 2.1, whose certificate has proba
 
 ## 5.1 The manuscript
 
-The manuscript is dated September 23, 2026 and was published in the repository `openai/math` (commit `adc7f124`) [@OpenAI2026]. Its abstract says that it settles the purely absolutely continuous energy-range question in Simon's Problem 1 for this model. To our knowledge it has not been refereed or independently reviewed. Everything in Sections 3 and 4 above is therefore **claimed**, with one qualification: a consequence of Theorem 1.1 is checked in Lean, as described next. That check covers the formal proof, not the text of the manuscript.
+The manuscript is dated September 23, 2026 and was published in the repository `openai/math` (commit `adc7f124`) [@OpenAI2026]. Its abstract says that it settles the purely absolutely continuous energy-range question in Simon's Problem 1 for this model. To our knowledge it has not been refereed or independently reviewed. Everything in Sections 3 and 4 above is therefore **claimed**, with one qualification: Theorem 1.1, in the vocabulary of OpenAI's library, and the Mathlib-only statement of Simon's problem derived from it are proved in Lean, as described next. That check covers the formal proof, not the text of the manuscript; Section 5.3 states its limits.
 
 ## 5.2 What the Lean formalization checks
 
@@ -261,7 +261,7 @@ def Statement : Prop :=
 $$(Tu)(n)=\sum_{i<d}\bigl(u(n+e_i)+u(n-e_i)\bigr)+V(n)\,u(n)$$
 for every vector and every site. This is Simon's $h_\omega$ with positive hopping and no normalization. For a bounded potential such an operator exists and is unique; the repository proves both, and self-adjointness.
 
-`IsSpectralMeasure T v μ` says that `μ` is a finite Borel measure on $\mathbb R$ whose moments are $\int t^k\,d\mu=\operatorname{Re}\langle v,T^kv\rangle$ for all $k$. For a bounded self-adjoint operator the spectral measure of $v$ has these moments; conversely the moments grow at most geometrically, so they determine the measure. Defining spectral measures by moments keeps the statement inside the pinned Mathlib's vocabulary, which has no construction of spectral measures for bounded self-adjoint operators on infinite-dimensional spaces, and makes "every spectral measure" refer to exactly one measure.
+`IsSpectralMeasure T v μ` says that `μ` is a finite Borel measure on $\mathbb R$ whose moments are $\int t^k\,d\mu=\mathrm{Re}\,\langle v,T^kv\rangle$ for all $k$. For a bounded self-adjoint operator the spectral measure of $v$ has these moments; conversely the moments grow at most geometrically, so they determine the measure. Defining spectral measures by moments keeps the statement inside the pinned Mathlib's vocabulary, which has no construction of spectral measures for bounded self-adjoint operators on infinite-dimensional spaces, and makes "every spectral measure" refer to exactly one measure.
 
 ## 6.2 The clauses
 
