@@ -4,19 +4,19 @@
  "model": "gpt-4o-mini-tts",
  "speed": null,
  "audio": "c2.wav",
- "duration": 72.08,
+ "duration": 65.09,
  "inserted": [
   {
    "at": 0.0,
-   "seconds": 1.13,
+   "seconds": 1.6,
    "where": "chapter start",
    "reason": [
     "chapter title settles"
    ]
   },
   {
-   "at": 71.38,
-   "seconds": 0.7,
+   "at": 64.4,
+   "seconds": 0.69,
    "where": "after c2b8",
    "reason": [
     "tail+0.8: picture fades out"
@@ -30,124 +30,124 @@
    "hold": "short",
    "paragraph": "1.1",
    "start": 1.6,
-   "end": 10.53,
-   "holdEnd": 10.88,
+   "end": 8.42,
+   "holdEnd": 8.68,
    "text": "The setting is the Anderson model. The sites form the integer lattice in d dimensions. A wave assigns a number to every site.",
    "words": [
     {
      "word": "The",
      "start": 1.6,
-     "end": 1.71
+     "end": 1.82
     },
     {
      "word": "setting",
-     "start": 1.71,
-     "end": 2.05
+     "start": 1.82,
+     "end": 2.04
     },
     {
      "word": "is",
-     "start": 2.05,
-     "end": 2.41
+     "start": 2.04,
+     "end": 2.32
     },
     {
      "word": "the",
-     "start": 2.41,
-     "end": 2.73
+     "start": 2.32,
+     "end": 2.52
     },
     {
      "word": "Anderson",
-     "start": 2.73,
-     "end": 3.05
+     "start": 2.52,
+     "end": 2.84
     },
     {
      "word": "model.",
-     "start": 3.05,
-     "end": 3.45
+     "start": 2.84,
+     "end": 3.2
     },
     {
      "word": "The",
-     "start": 4.19,
-     "end": 4.21
+     "start": 4.0,
+     "end": 4.0
     },
     {
      "word": "sites",
-     "start": 4.21,
-     "end": 4.37
+     "start": 4.0,
+     "end": 4.0
     },
     {
      "word": "form",
-     "start": 4.37,
-     "end": 4.77
+     "start": 4.0,
+     "end": 4.28
     },
     {
      "word": "the",
-     "start": 4.77,
-     "end": 5.41
+     "start": 4.28,
+     "end": 4.56
     },
     {
      "word": "integer",
-     "start": 5.41,
-     "end": 5.41
+     "start": 4.56,
+     "end": 4.74
     },
     {
      "word": "lattice",
-     "start": 5.41,
-     "end": 5.77
+     "start": 4.74,
+     "end": 5.06
     },
     {
      "word": "in",
-     "start": 5.77,
-     "end": 6.19
+     "start": 5.06,
+     "end": 5.38
     },
     {
      "word": "d",
-     "start": 6.19,
-     "end": 6.41
+     "start": 5.38,
+     "end": 5.6
     },
     {
      "word": "dimensions.",
-     "start": 6.41,
-     "end": 6.91
+     "start": 5.6,
+     "end": 6.0
     },
     {
      "word": "A",
-     "start": 8.49,
-     "end": 8.49
+     "start": 6.56,
+     "end": 6.76
     },
     {
      "word": "wave",
-     "start": 8.49,
-     "end": 8.49
+     "start": 6.76,
+     "end": 6.84
     },
     {
      "word": "assigns",
-     "start": 8.49,
-     "end": 9.05
+     "start": 6.84,
+     "end": 7.24
     },
     {
      "word": "a",
-     "start": 9.05,
-     "end": 9.41
+     "start": 7.24,
+     "end": 7.54
     },
     {
      "word": "number",
-     "start": 9.41,
-     "end": 9.41
+     "start": 7.54,
+     "end": 7.54
     },
     {
      "word": "to",
-     "start": 9.41,
-     "end": 9.75
+     "start": 7.54,
+     "end": 7.82
     },
     {
      "word": "every",
-     "start": 9.75,
-     "end": 10.19
+     "start": 7.82,
+     "end": 8.14
     },
     {
      "word": "site.",
-     "start": 10.19,
-     "end": 10.53
+     "start": 8.14,
+     "end": 8.42
     }
    ]
   },
@@ -156,130 +156,130 @@
    "status": "definition",
    "hold": "short",
    "paragraph": "1.1",
-   "start": 10.88,
-   "end": 17.98,
-   "holdEnd": 18.25,
+   "start": 8.68,
+   "end": 15.26,
+   "holdEnd": 15.515,
    "text": "The operator H acts on a wave u. At each site n, it adds up the values of u at the neighbours of n.",
    "words": [
     {
      "word": "The",
-     "start": 11.23,
-     "end": 11.43
+     "start": 8.94,
+     "end": 9.12
     },
     {
      "word": "operator",
-     "start": 11.43,
-     "end": 11.81
+     "start": 9.12,
+     "end": 9.44
     },
     {
      "word": "H",
-     "start": 11.81,
-     "end": 12.21
+     "start": 9.44,
+     "end": 9.88
     },
     {
      "word": "acts",
-     "start": 12.21,
-     "end": 12.51
+     "start": 9.88,
+     "end": 10.24
     },
     {
      "word": "on",
-     "start": 12.51,
-     "end": 12.69
+     "start": 10.24,
+     "end": 10.4
     },
     {
      "word": "a",
-     "start": 12.69,
-     "end": 12.97
+     "start": 10.4,
+     "end": 10.52
     },
     {
      "word": "wave",
-     "start": 12.97,
-     "end": 13.03
+     "start": 10.52,
+     "end": 10.7
     },
     {
      "word": "u.",
-     "start": 13.03,
-     "end": 13.33
+     "start": 10.7,
+     "end": 10.96
     },
     {
      "word": "At",
-     "start": 13.87,
-     "end": 14.01
+     "start": 11.5,
+     "end": 11.64
     },
     {
      "word": "each",
-     "start": 14.01,
-     "end": 14.39
+     "start": 11.64,
+     "end": 11.94
     },
     {
      "word": "site",
-     "start": 14.39,
-     "end": 14.59
+     "start": 11.94,
+     "end": 12.14
     },
     {
      "word": "n,",
-     "start": 14.59,
-     "end": 14.87
+     "start": 12.14,
+     "end": 12.4
     },
     {
      "word": "it",
-     "start": 15.29,
-     "end": 15.49
+     "start": 12.82,
+     "end": 12.98
     },
     {
      "word": "adds",
-     "start": 15.49,
-     "end": 15.69
+     "start": 12.98,
+     "end": 13.16
     },
     {
      "word": "up",
-     "start": 15.69,
-     "end": 15.93
+     "start": 13.16,
+     "end": 13.38
     },
     {
      "word": "the",
-     "start": 15.93,
-     "end": 16.23
+     "start": 13.38,
+     "end": 13.58
     },
     {
      "word": "values",
-     "start": 16.23,
-     "end": 16.41
+     "start": 13.58,
+     "end": 13.82
     },
     {
      "word": "of",
-     "start": 16.41,
-     "end": 16.67
+     "start": 13.82,
+     "end": 14.06
     },
     {
      "word": "u",
-     "start": 16.67,
-     "end": 16.87
+     "start": 14.06,
+     "end": 14.26
     },
     {
      "word": "at",
-     "start": 16.87,
-     "end": 17.07
+     "start": 14.26,
+     "end": 14.5
     },
     {
      "word": "the",
-     "start": 17.07,
-     "end": 17.49
+     "start": 14.5,
+     "end": 14.68
     },
     {
      "word": "neighbours",
-     "start": 17.49,
-     "end": 17.49
+     "start": 14.68,
+     "end": 14.86
     },
     {
      "word": "of",
-     "start": 17.49,
-     "end": 17.75
+     "start": 14.86,
+     "end": 15.12
     },
     {
      "word": "n.",
-     "start": 17.75,
-     "end": 17.98
+     "start": 15.12,
+     "end": 15.26
     }
    ]
   },
@@ -288,110 +288,110 @@
    "status": "definition",
    "hold": "short",
    "paragraph": "1.1",
-   "start": 18.25,
-   "end": 23.93,
-   "holdEnd": 24.265,
+   "start": 15.515,
+   "end": 20.91,
+   "holdEnd": 21.17,
    "text": "Then it adds V of n, times u of n. Here V of n is the energy of site n.",
    "words": [
     {
      "word": "Then",
-     "start": 18.52,
-     "end": 18.71
+     "start": 15.77,
+     "end": 15.98
     },
     {
      "word": "it",
-     "start": 18.71,
-     "end": 19.17
+     "start": 15.98,
+     "end": 16.36
     },
     {
      "word": "adds",
-     "start": 19.17,
-     "end": 19.17
+     "start": 16.36,
+     "end": 16.36
     },
     {
      "word": "V",
-     "start": 19.17,
-     "end": 19.43
+     "start": 16.36,
+     "end": 16.6
     },
     {
      "word": "of",
-     "start": 19.43,
-     "end": 19.55
+     "start": 16.6,
+     "end": 16.72
     },
     {
      "word": "n,",
-     "start": 19.55,
-     "end": 19.91
+     "start": 16.72,
+     "end": 16.96
     },
     {
      "word": "times",
-     "start": 19.91,
-     "end": 20.37
+     "start": 16.96,
+     "end": 17.4
     },
     {
      "word": "u",
-     "start": 20.37,
-     "end": 20.61
+     "start": 17.4,
+     "end": 17.6
     },
     {
      "word": "of",
-     "start": 20.61,
-     "end": 20.75
+     "start": 17.6,
+     "end": 17.76
     },
     {
      "word": "n.",
-     "start": 20.75,
-     "end": 21.03
+     "start": 17.76,
+     "end": 17.94
     },
     {
      "word": "Here",
-     "start": 21.67,
-     "end": 21.89
+     "start": 18.6,
+     "end": 18.76
     },
     {
      "word": "V",
-     "start": 21.95,
-     "end": 22.21
+     "start": 18.76,
+     "end": 18.98
     },
     {
      "word": "of",
-     "start": 22.21,
-     "end": 22.35
+     "start": 18.98,
+     "end": 19.12
     },
     {
      "word": "n",
-     "start": 22.35,
-     "end": 22.51
+     "start": 19.12,
+     "end": 19.32
     },
     {
      "word": "is",
-     "start": 22.51,
-     "end": 22.69
+     "start": 19.32,
+     "end": 19.64
     },
     {
      "word": "the",
-     "start": 22.69,
-     "end": 22.95
+     "start": 19.64,
+     "end": 19.86
     },
     {
      "word": "energy",
-     "start": 22.95,
-     "end": 23.17
+     "start": 19.86,
+     "end": 20.1
     },
     {
      "word": "of",
-     "start": 23.17,
-     "end": 23.61
+     "start": 20.1,
+     "end": 20.58
     },
     {
      "word": "site",
-     "start": 23.61,
-     "end": 23.61
+     "start": 20.58,
+     "end": 20.58
     },
     {
      "word": "n.",
-     "start": 23.61,
-     "end": 23.93
+     "start": 20.58,
+     "end": 20.91
     }
    ]
   },
@@ -400,135 +400,135 @@
    "status": "definition",
    "hold": "short",
    "paragraph": "1.2",
-   "start": 24.265,
-   "end": 34.56,
-   "holdEnd": 34.89,
+   "start": 21.17,
+   "end": 29.97,
+   "holdEnd": 30.21,
    "text": "The energies are independent random numbers, uniform between a and b. The width, b minus a, measures the disorder. We call half the width lambda.",
    "words": [
     {
      "word": "The",
-     "start": 24.6,
-     "end": 24.81
+     "start": 21.43,
+     "end": 21.6
     },
     {
      "word": "energies",
-     "start": 24.81,
-     "end": 25.11
+     "start": 21.6,
+     "end": 21.86
     },
     {
      "word": "are",
-     "start": 25.11,
-     "end": 25.45
+     "start": 21.86,
+     "end": 22.22
     },
     {
      "word": "independent",
-     "start": 25.45,
-     "end": 25.93
+     "start": 22.22,
+     "end": 22.68
     },
     {
      "word": "random",
-     "start": 25.93,
-     "end": 26.37
+     "start": 22.68,
+     "end": 23.02
     },
     {
      "word": "numbers,",
-     "start": 26.37,
-     "end": 26.81
+     "start": 23.02,
+     "end": 23.4
     },
     {
      "word": "uniform",
-     "start": 27.33,
-     "end": 27.69
+     "start": 23.88,
+     "end": 24.08
     },
     {
      "word": "between",
-     "start": 27.69,
-     "end": 28.11
+     "start": 24.08,
+     "end": 24.42
     },
     {
      "word": "a",
-     "start": 28.11,
-     "end": 28.39
+     "start": 24.42,
+     "end": 24.66
     },
     {
      "word": "and",
-     "start": 28.39,
-     "end": 28.55
+     "start": 24.66,
+     "end": 24.9
     },
     {
      "word": "b.",
-     "start": 28.55,
-     "end": 28.87
+     "start": 24.9,
+     "end": 25.1
     },
     {
      "word": "The",
-     "start": 29.47,
-     "end": 29.59
+     "start": 25.46,
+     "end": 25.8
     },
     {
      "word": "width,",
-     "start": 29.59,
-     "end": 29.91
+     "start": 25.8,
+     "end": 26.02
     },
     {
      "word": "b",
-     "start": 30.15,
-     "end": 30.37
+     "start": 26.02,
+     "end": 26.38
     },
     {
      "word": "minus",
-     "start": 30.37,
-     "end": 30.67
+     "start": 26.38,
+     "end": 26.66
     },
     {
      "word": "a,",
-     "start": 30.67,
-     "end": 30.99
+     "start": 26.66,
+     "end": 27.14
     },
     {
      "word": "measures",
-     "start": 31.65,
-     "end": 31.65
+     "start": 27.14,
+     "end": 27.46
     },
     {
      "word": "the",
-     "start": 31.65,
-     "end": 31.95
+     "start": 27.46,
+     "end": 27.72
     },
     {
      "word": "disorder.",
-     "start": 31.95,
-     "end": 32.27
+     "start": 27.72,
+     "end": 28.0
     },
     {
      "word": "We",
-     "start": 32.83,
-     "end": 32.95
+     "start": 28.34,
+     "end": 28.58
     },
     {
      "word": "call",
-     "start": 32.95,
-     "end": 33.17
+     "start": 28.58,
+     "end": 28.76
     },
     {
      "word": "half",
-     "start": 33.17,
-     "end": 33.45
+     "start": 28.76,
+     "end": 29.06
     },
     {
      "word": "the",
-     "start": 33.45,
-     "end": 33.87
+     "start": 29.06,
+     "end": 29.34
     },
     {
      "word": "width",
-     "start": 33.87,
-     "end": 33.87
+     "start": 29.34,
+     "end": 29.48
     },
     {
      "word": "lambda.",
-     "start": 34.23,
-     "end": 34.56
+     "start": 29.48,
+     "end": 29.97
     }
    ]
   },
@@ -537,80 +537,80 @@
    "status": "definition",
    "hold": "short",
    "paragraph": "1.3",
-   "start": 34.89,
-   "end": 39.84,
-   "holdEnd": 40.15,
+   "start": 30.21,
+   "end": 34.6,
+   "holdEnd": 34.865,
    "text": "Every wave has a spectral measure. It spreads the wave's weight over the energies.",
    "words": [
     {
      "word": "Every",
-     "start": 35.22,
-     "end": 35.55
+     "start": 30.45,
+     "end": 30.68
     },
     {
      "word": "wave",
-     "start": 35.55,
-     "end": 35.87
+     "start": 30.68,
+     "end": 31.0
     },
     {
      "word": "has",
-     "start": 35.87,
-     "end": 36.07
+     "start": 31.0,
+     "end": 31.2
     },
     {
      "word": "a",
-     "start": 36.07,
-     "end": 36.61
+     "start": 31.2,
+     "end": 31.58
     },
     {
      "word": "spectral",
-     "start": 36.61,
-     "end": 36.63
+     "start": 31.58,
+     "end": 31.72
     },
     {
      "word": "measure.",
-     "start": 36.63,
-     "end": 36.97
+     "start": 31.72,
+     "end": 32.02
     },
     {
      "word": "It",
-     "start": 37.53,
-     "end": 37.67
+     "start": 32.74,
+     "end": 32.74
     },
     {
      "word": "spreads",
-     "start": 37.67,
-     "end": 38.07
+     "start": 32.74,
+     "end": 33.02
     },
     {
      "word": "the",
-     "start": 38.07,
-     "end": 38.31
+     "start": 33.02,
+     "end": 33.22
     },
     {
      "word": "wave's",
-     "start": 38.31,
-     "end": 38.67
+     "start": 33.22,
+     "end": 33.54
     },
     {
      "word": "weight",
-     "start": 38.67,
-     "end": 38.85
+     "start": 33.54,
+     "end": 33.76
     },
     {
      "word": "over",
-     "start": 38.85,
-     "end": 39.11
+     "start": 33.76,
+     "end": 33.96
     },
     {
      "word": "the",
-     "start": 39.11,
-     "end": 39.35
+     "start": 33.96,
+     "end": 34.16
     },
     {
      "word": "energies.",
-     "start": 39.35,
-     "end": 39.84
+     "start": 34.16,
+     "end": 34.6
     }
    ]
   },
@@ -619,145 +619,155 @@
    "status": "definition",
    "hold": "short",
    "paragraph": "1.3",
-   "start": 40.15,
-   "end": 51.16,
-   "holdEnd": 51.56,
-   "text": "Point masses are eigenvalues. They belong to localized states. A smooth density is the absolutely continuous part. It is carried by states that spread through the lattice.",
+   "start": 34.865,
+   "end": 45.01,
+   "holdEnd": 45.275,
+   "text": "Point masses are eigenvalues; their eigenvectors are bound states. The part with a density is the absolutely continuous part. It is carried by states that spread through the lattice.",
    "words": [
     {
      "word": "Point",
-     "start": 40.46,
-     "end": 40.75
+     "start": 35.13,
+     "end": 35.38
     },
     {
      "word": "masses",
-     "start": 40.75,
-     "end": 41.05
+     "start": 35.38,
+     "end": 35.64
     },
     {
      "word": "are",
-     "start": 41.05,
-     "end": 41.39
+     "start": 35.64,
+     "end": 35.98
     },
     {
-     "word": "eigenvalues.",
-     "start": 41.39,
-     "end": 42.09
+     "word": "eigenvalues;",
+     "start": 35.98,
+     "end": 36.54
     },
     {
-     "word": "They",
-     "start": 42.71,
-     "end": 42.81
+     "word": "their",
+     "start": 37.08,
+     "end": 37.2
     },
     {
-     "word": "belong",
-     "start": 42.81,
-     "end": 43.11
+     "word": "eigenvectors",
+     "start": 37.2,
+     "end": 37.78
     },
     {
-     "word": "to",
-     "start": 43.11,
-     "end": 43.37
+     "word": "are",
+     "start": 37.78,
+     "end": 38.12
     },
     {
-     "word": "localized",
-     "start": 43.37,
-     "end": 43.85
+     "word": "bound",
+     "start": 38.12,
+     "end": 38.46
     },
     {
      "word": "states.",
-     "start": 43.85,
-     "end": 44.27
+     "start": 38.46,
+     "end": 38.78
     },
     {
-     "word": "A",
-     "start": 45.05,
-     "end": 45.19
+     "word": "The",
+     "start": 39.3,
+     "end": 39.44
     },
     {
-     "word": "smooth",
-     "start": 45.19,
-     "end": 45.53
+     "word": "part",
+     "start": 39.44,
+     "end": 39.58
+    },
+    {
+     "word": "with",
+     "start": 39.58,
+     "end": 39.72
+    },
+    {
+     "word": "a",
+     "start": 39.72,
+     "end": 40.18
     },
     {
      "word": "density",
-     "start": 45.53,
-     "end": 45.93
+     "start": 40.18,
+     "end": 40.18
     },
     {
      "word": "is",
-     "start": 45.93,
-     "end": 46.41
+     "start": 40.18,
+     "end": 40.66
     },
     {
      "word": "the",
-     "start": 46.41,
-     "end": 46.67
+     "start": 40.66,
+     "end": 40.86
     },
     {
      "word": "absolutely",
-     "start": 46.67,
-     "end": 47.21
+     "start": 40.86,
+     "end": 41.38
     },
     {
      "word": "continuous",
-     "start": 47.21,
-     "end": 47.75
+     "start": 41.38,
+     "end": 41.84
     },
     {
      "word": "part.",
-     "start": 47.75,
-     "end": 48.11
+     "start": 41.84,
+     "end": 42.18
     },
     {
      "word": "It",
-     "start": 48.67,
-     "end": 48.79
+     "start": 42.74,
+     "end": 42.82
     },
     {
      "word": "is",
-     "start": 48.79,
-     "end": 49.07
+     "start": 42.82,
+     "end": 43.1
     },
     {
      "word": "carried",
-     "start": 49.07,
-     "end": 49.21
+     "start": 43.1,
+     "end": 43.22
     },
     {
      "word": "by",
-     "start": 49.21,
-     "end": 49.55
+     "start": 43.22,
+     "end": 43.54
     },
     {
      "word": "states",
-     "start": 49.55,
-     "end": 49.77
+     "start": 43.54,
+     "end": 43.78
     },
     {
      "word": "that",
-     "start": 49.77,
-     "end": 50.15
+     "start": 43.78,
+     "end": 44.1
     },
     {
      "word": "spread",
-     "start": 50.15,
-     "end": 50.35
+     "start": 44.1,
+     "end": 44.3
     },
     {
      "word": "through",
-     "start": 50.35,
-     "end": 50.55
+     "start": 44.3,
+     "end": 44.48
     },
     {
      "word": "the",
-     "start": 50.55,
-     "end": 51.05
+     "start": 44.48,
+     "end": 44.94
     },
     {
      "word": "lattice.",
-     "start": 51.05,
-     "end": 51.16
+     "start": 44.94,
+     "end": 45.01
     }
    ]
   },
@@ -766,160 +776,160 @@
    "status": "context",
    "hold": "short",
    "paragraph": "1.4",
-   "start": 51.56,
-   "end": 62.97,
-   "holdEnd": 63.29,
+   "start": 45.275,
+   "end": 56.29,
+   "holdEnd": 56.53,
    "text": "In the year two thousand, Barry Simon listed this as Problem one. In three or more dimensions, for suitable disorder, prove purely absolutely continuous spectrum in some range of energies.",
    "words": [
     {
      "word": "In",
-     "start": 51.96,
-     "end": 52.05
+     "start": 45.54,
+     "end": 45.64
     },
     {
      "word": "the",
-     "start": 52.05,
-     "end": 52.21
+     "start": 45.64,
+     "end": 45.84
     },
     {
      "word": "year",
-     "start": 52.21,
-     "end": 52.45
+     "start": 45.84,
+     "end": 45.98
     },
     {
      "word": "two",
-     "start": 52.45,
-     "end": 52.665
+     "start": 45.98,
+     "end": 46.177
     },
     {
      "word": "thousand,",
-     "start": 52.665,
-     "end": 53.15
+     "start": 46.177,
+     "end": 46.62
     },
     {
      "word": "Barry",
-     "start": 53.65,
-     "end": 53.85
+     "start": 47.06,
+     "end": 47.32
     },
     {
      "word": "Simon",
-     "start": 53.85,
-     "end": 54.11
+     "start": 47.32,
+     "end": 47.62
     },
     {
      "word": "listed",
-     "start": 54.11,
-     "end": 54.45
+     "start": 47.62,
+     "end": 47.92
     },
     {
      "word": "this",
-     "start": 54.45,
-     "end": 54.69
+     "start": 47.92,
+     "end": 48.16
     },
     {
      "word": "as",
-     "start": 54.69,
-     "end": 54.95
+     "start": 48.16,
+     "end": 48.44
     },
     {
      "word": "Problem",
-     "start": 54.95,
-     "end": 55.21
+     "start": 48.44,
+     "end": 48.72
     },
     {
      "word": "one.",
-     "start": 55.21,
-     "end": 55.61
+     "start": 48.72,
+     "end": 49.04
     },
     {
      "word": "In",
-     "start": 56.37,
-     "end": 56.37
+     "start": 49.58,
+     "end": 49.76
     },
     {
      "word": "three",
-     "start": 56.37,
-     "end": 56.63
+     "start": 49.76,
+     "end": 49.92
     },
     {
      "word": "or",
-     "start": 56.63,
-     "end": 56.85
+     "start": 49.92,
+     "end": 50.1
     },
     {
      "word": "more",
-     "start": 56.85,
-     "end": 57.03
+     "start": 50.1,
+     "end": 50.24
     },
     {
      "word": "dimensions,",
-     "start": 57.03,
-     "end": 57.41
+     "start": 50.24,
+     "end": 50.64
     },
     {
      "word": "for",
-     "start": 58.13,
-     "end": 58.15
+     "start": 50.64,
+     "end": 51.22
     },
     {
      "word": "suitable",
-     "start": 58.15,
-     "end": 58.43
+     "start": 51.22,
+     "end": 51.48
     },
     {
      "word": "disorder,",
-     "start": 58.43,
-     "end": 58.91
+     "start": 51.48,
+     "end": 51.94
     },
     {
      "word": "prove",
-     "start": 59.49,
-     "end": 59.57
+     "start": 52.46,
+     "end": 52.72
     },
     {
      "word": "purely",
-     "start": 59.57,
-     "end": 59.95
+     "start": 52.72,
+     "end": 53.12
     },
     {
      "word": "absolutely",
-     "start": 59.95,
-     "end": 60.61
+     "start": 53.12,
+     "end": 53.72
     },
     {
      "word": "continuous",
-     "start": 60.61,
-     "end": 61.19
+     "start": 53.72,
+     "end": 54.22
     },
     {
      "word": "spectrum",
-     "start": 61.19,
-     "end": 61.59
+     "start": 54.22,
+     "end": 54.64
     },
     {
      "word": "in",
-     "start": 61.59,
-     "end": 61.91
+     "start": 54.64,
+     "end": 55.18
     },
     {
      "word": "some",
-     "start": 61.91,
-     "end": 62.15
+     "start": 55.18,
+     "end": 55.46
     },
     {
      "word": "range",
-     "start": 62.15,
-     "end": 62.33
+     "start": 55.46,
+     "end": 55.64
     },
     {
      "word": "of",
-     "start": 62.33,
-     "end": 62.93
+     "start": 55.64,
+     "end": 56.26
     },
     {
      "word": "energies.",
-     "start": 62.93,
-     "end": 62.97
+     "start": 56.26,
+     "end": 56.29
     }
    ]
   },
@@ -928,120 +938,120 @@
    "status": "definition",
    "hold": "short",
    "paragraph": "1.4",
-   "start": 63.29,
-   "end": 71.28,
-   "holdEnd": 72.08,
+   "start": 56.53,
+   "end": 64.29,
+   "holdEnd": 65.09,
    "text": "Purely means no eigenvalues, and no singular part, in that range. And the range must lie in the spectrum, with nonzero weight.",
    "words": [
     {
      "word": "Purely",
-     "start": 63.61,
-     "end": 64.03
+     "start": 56.77,
+     "end": 57.1
     },
     {
      "word": "means",
-     "start": 64.03,
-     "end": 64.25
+     "start": 57.1,
+     "end": 57.4
     },
     {
      "word": "no",
-     "start": 64.25,
-     "end": 64.57
+     "start": 57.4,
+     "end": 57.72
     },
     {
      "word": "eigenvalues,",
-     "start": 64.57,
-     "end": 65.23
+     "start": 57.72,
+     "end": 58.32
     },
     {
      "word": "and",
-     "start": 65.23,
-     "end": 65.73
+     "start": 58.32,
+     "end": 58.94
     },
     {
      "word": "no",
-     "start": 65.73,
-     "end": 66.09
+     "start": 58.94,
+     "end": 59.3
     },
     {
      "word": "singular",
-     "start": 66.09,
-     "end": 66.33
+     "start": 59.3,
+     "end": 59.52
     },
     {
      "word": "part,",
-     "start": 66.33,
-     "end": 66.69
+     "start": 59.52,
+     "end": 59.88
     },
     {
      "word": "in",
-     "start": 66.91,
-     "end": 67.05
+     "start": 59.88,
+     "end": 60.24
     },
     {
      "word": "that",
-     "start": 67.05,
-     "end": 67.27
+     "start": 60.24,
+     "end": 60.62
     },
     {
      "word": "range.",
-     "start": 67.27,
-     "end": 67.57
+     "start": 60.62,
+     "end": 60.72
     },
     {
      "word": "And",
-     "start": 68.11,
-     "end": 68.33
+     "start": 61.34,
+     "end": 61.42
     },
     {
      "word": "the",
-     "start": 68.33,
-     "end": 68.71
+     "start": 61.42,
+     "end": 61.6
     },
     {
      "word": "range",
-     "start": 68.71,
-     "end": 68.71
+     "start": 61.6,
+     "end": 61.8
     },
     {
      "word": "must",
-     "start": 68.71,
-     "end": 68.97
+     "start": 61.8,
+     "end": 62.06
     },
     {
      "word": "lie",
-     "start": 68.97,
-     "end": 69.19
+     "start": 62.06,
+     "end": 62.28
     },
     {
      "word": "in",
-     "start": 69.19,
-     "end": 69.33
+     "start": 62.28,
+     "end": 62.48
     },
     {
      "word": "the",
-     "start": 69.33,
-     "end": 69.83
+     "start": 62.48,
+     "end": 62.88
     },
     {
      "word": "spectrum,",
-     "start": 69.83,
-     "end": 69.83
+     "start": 62.88,
+     "end": 62.88
     },
     {
      "word": "with",
-     "start": 70.23,
-     "end": 70.39
+     "start": 62.88,
+     "end": 63.44
     },
     {
      "word": "nonzero",
-     "start": 70.39,
-     "end": 70.87
+     "start": 63.44,
+     "end": 63.9
     },
     {
      "word": "weight.",
-     "start": 70.87,
-     "end": 71.28
+     "start": 63.9,
+     "end": 64.29
     }
    ]
   }

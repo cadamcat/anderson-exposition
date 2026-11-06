@@ -27,7 +27,7 @@ On-screen end card (not spoken): the references, then "Prepared by Yao Xu with A
 - **c2b4** `definition` The energies are independent random numbers, uniform between a and b. The width, b minus a, measures the disorder. We call half the width lambda.
 
 - **c2b5** `definition` Every wave has a spectral measure. It spreads the wave's weight over the energies.
-- **c2b6** `definition` Point masses are eigenvalues. They belong to localized states. A smooth density is the absolutely continuous part. It is carried by states that spread through the lattice.
+- **c2b6** `definition` Point masses are eigenvalues; their eigenvectors are bound states. The part with a density is the absolutely continuous part. It is carried by states that spread through the lattice.
 
 - **c2b7** `context` In the year two thousand, Barry Simon listed this as Problem one. In three or more dimensions, for suitable disorder, prove purely absolutely continuous spectrum in some range of energies.
 - **c2b8** `definition` Purely means no eigenvalues, and no singular part, in that range. And the range must lie in the spectrum, with nonzero weight.
@@ -35,7 +35,7 @@ On-screen end card (not spoken): the references, then "Prepared by Yao Xu with A
 ## c3 · Why it is hard
 
 <!-- passage -->
-- **c3b1** `proved` Every theorem on the lattice pointed the other way. In one dimension, all states are localized. In any dimension, strong disorder gives localization too, and so do energies near the edge of the spectrum.
+- **c3b1** `proved` Every proved result about the kind of spectrum on the lattice pointed the other way. In one dimension, all states are localized. In any dimension, strong disorder gives localization too, and so do energies near the edge of the spectrum.
 - **c3b2** `proved` Extended states had been proved only on trees, such as the Bethe lattice. That was the work of Abel Klein, in the nineteen nineties.
 
 - **c3b3** `definition` The main tool is the Green function, G of z. It is the inverse of H minus z. Here z is an energy E, plus a small imaginary part, eta. Eta acts as a damping.
@@ -43,8 +43,8 @@ On-screen end card (not spoken): the references, then "Prepared by Yao Xu with A
 - **c3b4** `heuristic` On a tree, removing one site splits the graph into independent branches. So the Green function at that site obeys an exact recursion, in terms of the branches.
 - **c3b5** `heuristic` On the lattice, loops tie the neighbours back together. No such equation closes.
 
-- **c3b6** `proved` Perturbation theory follows the averaged wave for long, but finite, times, of order lambda to the minus two minus kappa. Here kappa is a small positive number. Over those times, the wave spreads like heat. That is the work of Erdős, Salmhofer and Yau.
-- **c3b7** `heuristic` Following a wave up to some time is like damping the Green function by one over that time. So these results reach a damping of about lambda to the two plus kappa.
+- **c3b6** `proved` Perturbation theory follows the wave for long, but finite, times, of order lambda to the minus two minus kappa. Here kappa is a small positive number. As the disorder goes to zero, after rescaling, the averaged density of the wave spreads like heat over those times. That is the work of Erdős, Salmhofer and Yau.
+- **c3b7** `heuristic` Following a wave up to some time is comparable to damping the Green function by one over that time. So these results correspond to a damping of about lambda to the two plus kappa.
 - **c3b8** `heuristic` But spectral type is a statement about all times. The damping must go to zero, at fixed disorder. That last limit is the obstacle.
 
 ## c4 · The idea of the proof
@@ -54,19 +54,19 @@ On-screen end card (not spoken): the references, then "Prepared by Yao Xu with A
 - **c4b2** `claimed` Its Theorem one point one centres the energies, so they lie between minus lambda and lambda. For small enough lambda, almost surely, a fixed interval just above the bottom of the band lies in the spectrum. And there, the spectrum is purely absolutely continuous.
 
 - **c4b3** `claimed` Here is the plan of the argument, as a map. Each box is a stage, and we will visit them in order. Everything aims at one finite certificate.
-- **c4b4** `claimed` The certificate lives on a large periodic box. Add a tiny damping on half of the sites. Then the Green function at those sites keeps an imaginary part bounded below, however large the box. And the damping shrinks as the box grows.
+- **c4b4** `claimed` The certificate lives on a large periodic box. Add a tiny damping on at least half of the sites. Then the Green function at those sites keeps an imaginary part bounded below, however large the box. And the damping shrinks as the box grows.
 - **c4b5** `heuristic` A lower bound that survives as the damping goes to zero is the signature of absolutely continuous spectrum.
 
 - **c4b6** `claimed` To build the certificate, the construction starts with no disorder at all. Then it reveals each random energy one binary digit at a time. Each digit is a fair coin, and moves the energy up or down by half the previous step.
 - **c4b7** `heuristic` The digits not yet revealed are replaced by a damping, of the same size as their variance. It is a mean-field stand-in for the hidden disorder. Each revealed digit trades damping for true randomness.
 
 <!-- passage -->
-- **c4b8** `claimed` Three controls are carried through every stage. First, the damping at each site must match the Green function it produces. That self-consistent equation stays solvable, because its feedback stays below one third.
+- **c4b8** `claimed` Three controls are carried through every stage. First, at the end of each stage, the damping at each site must match the Green function it produces. That self-consistent equation can be restored, because its feedback stays below one third, together with further bounds.
 - **c4b9** `claimed` Second, no row of the Green function concentrates on a few sites. So no single update can move much.
 - **c4b10** `claimed` Third, an exact identity, the Ward identity, turns the Green function into a weighted graph. Its Laplacian adds up many small local changes into one bound.
 
 - **c4b11** `claimed` Updates are tested on finite tiles. A failed trial is rolled back. Its sites are marked pending.
-- **c4b12** `claimed` Later, small clusters of pending sites are cleared. A scattering matrix measures how a cluster couples to the sites around it. When that coupling is weak, completing the cluster changes the rest only a little.
+- **c4b12** `claimed` Later, small clusters of pending sites are cleared. A scattering matrix identifies the directions through which a cluster reaches the sites around it. When those directions carry only weak weight at every remaining site, completing the cluster changes the rest only a little.
 - **c4b13** `claimed` With high probability, nothing is pending at the end. The last digits go in, and the certificate holds.
 
 - **c4b14** `claimed` A final spectral argument reads the certificate. It gives absolutely continuous spectrum on the interval, almost surely, with no eigenvalues and no singular part. That is Theorem one point one.
@@ -75,7 +75,7 @@ On-screen end card (not spoken): the references, then "Prepared by Yao Xu with A
 
 <!-- passage -->
 - **c5b1** `context` So what is established? Here is the ledger.
-- **c5b2** `proved` Proved, and peer reviewed: localization, in one dimension and at strong disorder. Extended states on trees. And diffusion up to long, finite times.
+- **c5b2** `proved` Proved, and peer reviewed: localization, in one dimension and at strong disorder. Extended states on trees. And diffusion up to long, finite times, in a scaling limit.
 - **c5b3** `claimed` Claimed: the manuscript itself. Its text has not been refereed.
 - **c5b4** `lean` Checked by the Lean proof assistant: the whole argument, formalized from start to finish. It proves Theorem one point one, and from it, a precise statement of Simon's problem.
 - **c5b5** `heuristic` And the pictures in this film are explanations, including the mean-field reading of the damping. They prove nothing.

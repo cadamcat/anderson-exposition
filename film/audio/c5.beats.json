@@ -4,7 +4,7 @@
  "model": "gpt-4o-mini-tts",
  "speed": null,
  "audio": "c5.wav",
- "duration": 53.0,
+ "duration": 47.63,
  "inserted": [
   {
    "at": 0.0,
@@ -15,11 +15,11 @@
    ]
   },
   {
-   "at": 52.45,
-   "seconds": 0.55,
-   "where": "after c5b6",
+   "at": 4.49,
+   "seconds": 0.13,
+   "where": "after c5b1",
    "reason": [
-    "tail+0.8: picture fades out"
+    "Here+0.9: four empty card outlines, one after another"
    ]
   }
  ],
@@ -30,49 +30,49 @@
    "hold": "short",
    "paragraph": "1.1",
    "start": 1.6,
-   "end": 5.7,
-   "holdEnd": 6.1,
+   "end": 4.3,
+   "holdEnd": 4.62,
    "text": "So what is established? Here is the ledger.",
    "words": [
     {
      "word": "So",
      "start": 1.6,
-     "end": 2.08
+     "end": 1.88
     },
     {
      "word": "what",
-     "start": 2.42,
-     "end": 2.6
+     "start": 1.88,
+     "end": 2.14
     },
     {
      "word": "is",
-     "start": 2.6,
-     "end": 3.0
+     "start": 2.14,
+     "end": 2.44
     },
     {
      "word": "established?",
-     "start": 3.0,
-     "end": 3.68
+     "start": 2.44,
+     "end": 3.0
     },
     {
      "word": "Here",
-     "start": 4.46,
-     "end": 4.7
+     "start": 3.72,
+     "end": 3.74
     },
     {
      "word": "is",
-     "start": 4.7,
-     "end": 5.16
+     "start": 3.74,
+     "end": 3.9
     },
     {
      "word": "the",
-     "start": 5.16,
-     "end": 5.4
+     "start": 3.9,
+     "end": 4.18
     },
     {
      "word": "ledger.",
-     "start": 5.4,
-     "end": 5.7
+     "start": 4.18,
+     "end": 4.3
     }
    ]
   },
@@ -81,125 +81,145 @@
    "status": "proved",
    "hold": "short",
    "paragraph": "1.1",
-   "start": 6.1,
-   "end": 17.13,
-   "holdEnd": 17.56,
-   "text": "Proved, and peer reviewed: localization, in one dimension and at strong disorder. Extended states on trees. And diffusion up to long, finite times.",
+   "start": 4.62,
+   "end": 15.21,
+   "holdEnd": 15.64,
+   "text": "Proved, and peer reviewed: localization, in one dimension and at strong disorder. Extended states on trees. And diffusion up to long, finite times, in a scaling limit.",
    "words": [
     {
      "word": "Proved,",
-     "start": 6.5,
-     "end": 7.02
+     "start": 4.81,
+     "end": 5.17
     },
     {
      "word": "and",
-     "start": 7.02,
-     "end": 7.52
+     "start": 5.17,
+     "end": 5.43
     },
     {
      "word": "peer",
-     "start": 7.52,
-     "end": 7.9
+     "start": 5.43,
+     "end": 5.71
     },
     {
      "word": "reviewed:",
-     "start": 7.9,
-     "end": 8.42
+     "start": 5.71,
+     "end": 6.11
     },
     {
      "word": "localization,",
-     "start": 9.04,
-     "end": 9.44
+     "start": 6.67,
+     "end": 7.11
     },
     {
      "word": "in",
-     "start": 9.9,
-     "end": 10.04
+     "start": 7.11,
+     "end": 7.41
     },
     {
      "word": "one",
-     "start": 10.04,
-     "end": 10.32
+     "start": 7.41,
+     "end": 7.67
     },
     {
      "word": "dimension",
-     "start": 10.32,
-     "end": 10.66
+     "start": 7.67,
+     "end": 7.97
     },
     {
      "word": "and",
-     "start": 10.66,
-     "end": 10.98
+     "start": 7.97,
+     "end": 8.27
     },
     {
      "word": "at",
-     "start": 10.98,
-     "end": 11.24
+     "start": 8.27,
+     "end": 8.51
     },
     {
      "word": "strong",
-     "start": 11.24,
-     "end": 11.5
+     "start": 8.51,
+     "end": 8.71
     },
     {
      "word": "disorder.",
-     "start": 11.5,
-     "end": 11.96
+     "start": 8.71,
+     "end": 9.15
     },
     {
      "word": "Extended",
-     "start": 13.24,
-     "end": 13.26
+     "start": 10.41,
+     "end": 10.43
     },
     {
      "word": "states",
-     "start": 13.26,
-     "end": 13.66
+     "start": 10.43,
+     "end": 10.83
     },
     {
      "word": "on",
-     "start": 13.66,
-     "end": 13.98
+     "start": 10.83,
+     "end": 11.09
     },
     {
      "word": "trees.",
-     "start": 13.98,
-     "end": 14.28
+     "start": 11.09,
+     "end": 11.37
     },
     {
      "word": "And",
-     "start": 14.88,
-     "end": 15.12
+     "start": 11.75,
+     "end": 11.91
     },
     {
      "word": "diffusion",
-     "start": 15.12,
-     "end": 15.46
+     "start": 11.91,
+     "end": 12.31
     },
     {
      "word": "up",
-     "start": 15.46,
-     "end": 15.76
+     "start": 12.31,
+     "end": 12.59
     },
     {
      "word": "to",
-     "start": 15.76,
-     "end": 15.96
+     "start": 12.59,
+     "end": 12.77
     },
     {
      "word": "long,",
-     "start": 15.96,
-     "end": 16.32
+     "start": 12.77,
+     "end": 13.13
     },
     {
      "word": "finite",
-     "start": 16.32,
-     "end": 16.64
+     "start": 13.63,
+     "end": 13.63
     },
     {
-     "word": "times.",
-     "start": 16.64,
-     "end": 17.13
+     "word": "times,",
+     "start": 13.63,
+     "end": 14.01
+    },
+    {
+     "word": "in",
+     "start": 14.01,
+     "end": 14.39
+    },
+    {
+     "word": "a",
+     "start": 14.39,
+     "end": 14.87
+    },
+    {
+     "word": "scaling",
+     "start": 14.87,
+     "end": 14.87
+    },
+    {
+     "word": "limit.",
+     "start": 14.87,
+     "end": 15.21
     }
    ]
   },
@@ -208,60 +228,60 @@
    "status": "claimed",
    "hold": "short",
    "paragraph": "1.1",
-   "start": 17.56,
-   "end": 22.64,
-   "holdEnd": 22.955,
+   "start": 15.64,
+   "end": 20.03,
+   "holdEnd": 20.46,
    "text": "Claimed: the manuscript itself. Its text has not been refereed.",
    "words": [
     {
      "word": "Claimed:",
-     "start": 17.99,
-     "end": 18.38
+     "start": 16.07,
+     "end": 16.39
     },
     {
      "word": "the",
-     "start": 18.92,
-     "end": 19.2
+     "start": 16.87,
+     "end": 17.11
     },
     {
      "word": "manuscript",
-     "start": 19.2,
-     "end": 19.64
+     "start": 17.11,
+     "end": 17.41
     },
     {
      "word": "itself.",
-     "start": 19.64,
-     "end": 20.22
+     "start": 17.41,
+     "end": 17.97
     },
     {
      "word": "Its",
-     "start": 20.92,
-     "end": 21.12
+     "start": 18.43,
+     "end": 18.63
     },
     {
      "word": "text",
-     "start": 21.12,
-     "end": 21.46
+     "start": 18.63,
+     "end": 18.89
     },
     {
      "word": "has",
-     "start": 21.46,
-     "end": 21.7
+     "start": 18.89,
+     "end": 19.11
     },
     {
      "word": "not",
-     "start": 21.7,
-     "end": 21.9
+     "start": 19.11,
+     "end": 19.31
     },
     {
      "word": "been",
-     "start": 21.9,
-     "end": 22.12
+     "start": 19.31,
+     "end": 19.51
     },
     {
      "word": "refereed.",
-     "start": 22.12,
-     "end": 22.64
+     "start": 19.51,
+     "end": 20.03
     }
    ]
   },
@@ -270,155 +290,155 @@
    "status": "lean",
    "hold": "short",
    "paragraph": "1.1",
-   "start": 22.955,
-   "end": 34.44,
-   "holdEnd": 34.755,
+   "start": 20.46,
+   "end": 30.94,
+   "holdEnd": 31.325,
    "text": "Checked by the Lean proof assistant: the whole argument, formalized from start to finish. It proves Theorem one point one, and from it, a precise statement of Simon's problem.",
    "words": [
     {
      "word": "Checked",
-     "start": 23.27,
-     "end": 23.66
+     "start": 20.89,
+     "end": 21.21
     },
     {
      "word": "by",
-     "start": 23.66,
-     "end": 23.78
+     "start": 21.21,
+     "end": 21.33
     },
     {
      "word": "the",
-     "start": 23.78,
-     "end": 24.02
+     "start": 21.33,
+     "end": 21.55
     },
     {
      "word": "Lean",
-     "start": 24.02,
-     "end": 24.24
+     "start": 21.55,
+     "end": 21.71
     },
     {
      "word": "proof",
-     "start": 24.24,
-     "end": 24.48
+     "start": 21.71,
+     "end": 21.93
     },
     {
      "word": "assistant:",
-     "start": 24.48,
-     "end": 24.9
+     "start": 21.93,
+     "end": 22.33
     },
     {
      "word": "the",
-     "start": 25.32,
-     "end": 25.48
+     "start": 22.75,
+     "end": 22.89
     },
     {
      "word": "whole",
-     "start": 25.48,
-     "end": 25.76
+     "start": 22.89,
+     "end": 23.17
     },
     {
      "word": "argument,",
-     "start": 25.76,
-     "end": 26.16
+     "start": 23.17,
+     "end": 23.49
     },
     {
      "word": "formalized",
-     "start": 26.64,
-     "end": 27.18
+     "start": 23.49,
+     "end": 24.33
     },
     {
      "word": "from",
-     "start": 27.18,
-     "end": 27.44
+     "start": 24.33,
+     "end": 24.59
     },
     {
      "word": "start",
-     "start": 27.44,
-     "end": 27.74
+     "start": 24.59,
+     "end": 24.77
     },
     {
      "word": "to",
-     "start": 27.74,
-     "end": 28.04
+     "start": 24.77,
+     "end": 25.03
     },
     {
      "word": "finish.",
-     "start": 28.04,
-     "end": 28.26
+     "start": 25.03,
+     "end": 25.25
     },
     {
      "word": "It",
-     "start": 28.98,
-     "end": 29.34
+     "start": 25.93,
+     "end": 26.21
     },
     {
      "word": "proves",
-     "start": 29.34,
-     "end": 29.82
+     "start": 26.21,
+     "end": 26.51
     },
     {
      "word": "Theorem",
-     "start": 29.82,
-     "end": 30.2
+     "start": 26.51,
+     "end": 26.81
     },
     {
      "word": "one",
-     "start": 30.2,
-     "end": 30.429
+     "start": 26.81,
+     "end": 27.067
     },
     {
      "word": "point",
-     "start": 30.429,
-     "end": 30.771
+     "start": 27.067,
+     "end": 27.453
     },
     {
      "word": "one,",
-     "start": 30.771,
-     "end": 31.0
+     "start": 27.453,
+     "end": 27.71
     },
     {
      "word": "and",
-     "start": 31.5,
-     "end": 31.68
+     "start": 28.11,
+     "end": 28.35
     },
     {
      "word": "from",
-     "start": 31.68,
-     "end": 31.92
+     "start": 28.35,
+     "end": 28.55
     },
     {
      "word": "it,",
-     "start": 31.92,
-     "end": 32.12
+     "start": 28.55,
+     "end": 28.71
     },
     {
      "word": "a",
-     "start": 32.44,
-     "end": 32.56
+     "start": 29.03,
+     "end": 29.19
     },
     {
      "word": "precise",
-     "start": 32.56,
-     "end": 32.98
+     "start": 29.19,
+     "end": 29.57
     },
     {
      "word": "statement",
-     "start": 32.98,
-     "end": 33.34
+     "start": 29.57,
+     "end": 29.89
     },
     {
      "word": "of",
-     "start": 33.34,
-     "end": 33.7
+     "start": 29.89,
+     "end": 30.21
     },
     {
      "word": "Simon's",
-     "start": 33.7,
-     "end": 34.08
+     "start": 30.21,
+     "end": 30.57
     },
     {
      "word": "problem.",
-     "start": 34.08,
-     "end": 34.44
+     "start": 30.57,
+     "end": 30.94
     }
    ]
   },
@@ -427,100 +447,100 @@
    "status": "heuristic",
    "hold": "short",
    "paragraph": "1.1",
-   "start": 34.755,
-   "end": 42.3,
-   "holdEnd": 42.585,
+   "start": 31.325,
+   "end": 37.54,
+   "holdEnd": 37.935,
    "text": "And the pictures in this film are explanations, including the mean-field reading of the damping. They prove nothing.",
    "words": [
     {
      "word": "And",
-     "start": 35.07,
-     "end": 35.18
+     "start": 31.71,
+     "end": 31.79
     },
     {
      "word": "the",
-     "start": 35.18,
-     "end": 35.38
+     "start": 31.79,
+     "end": 31.97
     },
     {
      "word": "pictures",
-     "start": 35.38,
-     "end": 35.64
+     "start": 31.97,
+     "end": 32.25
     },
     {
      "word": "in",
-     "start": 35.64,
-     "end": 35.84
+     "start": 32.25,
+     "end": 32.41
     },
     {
      "word": "this",
-     "start": 35.84,
-     "end": 36.06
+     "start": 32.41,
+     "end": 32.63
     },
     {
      "word": "film",
-     "start": 36.06,
-     "end": 36.28
+     "start": 32.63,
+     "end": 32.81
     },
     {
      "word": "are",
-     "start": 36.28,
-     "end": 36.8
+     "start": 32.81,
+     "end": 33.07
     },
     {
      "word": "explanations,",
-     "start": 36.8,
-     "end": 37.38
+     "start": 33.07,
+     "end": 33.59
     },
     {
      "word": "including",
-     "start": 38.16,
-     "end": 38.44
+     "start": 34.49,
+     "end": 34.49
     },
     {
      "word": "the",
-     "start": 38.44,
-     "end": 38.82
+     "start": 34.49,
+     "end": 34.89
     },
     {
      "word": "mean-field",
-     "start": 38.82,
-     "end": 39.2
+     "start": 34.89,
+     "end": 35.23
     },
     {
      "word": "reading",
-     "start": 39.2,
-     "end": 39.48
+     "start": 35.23,
+     "end": 35.47
     },
     {
      "word": "of",
-     "start": 39.48,
-     "end": 39.76
+     "start": 35.47,
+     "end": 35.61
     },
     {
      "word": "the",
-     "start": 39.76,
-     "end": 40.16
+     "start": 35.61,
+     "end": 35.85
     },
     {
      "word": "damping.",
-     "start": 40.16,
-     "end": 40.16
+     "start": 35.85,
+     "end": 35.97
     },
     {
      "word": "They",
-     "start": 41.28,
-     "end": 41.48
+     "start": 36.85,
+     "end": 36.95
     },
     {
      "word": "prove",
-     "start": 41.48,
-     "end": 41.84
+     "start": 36.95,
+     "end": 37.19
     },
     {
      "word": "nothing.",
-     "start": 41.84,
-     "end": 42.3
+     "start": 37.19,
+     "end": 37.54
     }
    ]
   },
@@ -529,115 +549,115 @@
    "status": "context",
    "hold": "short",
    "paragraph": "1.2",
-   "start": 42.585,
-   "end": 52.2,
-   "holdEnd": 53.0,
+   "start": 37.935,
+   "end": 46.69,
+   "holdEnd": 47.63,
    "text": "In short: Simon's Problem one, as formalized in Lean, has a complete machine-checked proof. The manuscript behind it is still unrefereed.",
    "words": [
     {
      "word": "In",
-     "start": 42.87,
-     "end": 43.1
+     "start": 38.33,
+     "end": 38.53
     },
     {
      "word": "short:",
-     "start": 43.1,
-     "end": 43.38
+     "start": 38.53,
+     "end": 38.77
     },
     {
      "word": "Simon's",
-     "start": 44.32,
-     "end": 44.54
+     "start": 39.39,
+     "end": 39.75
     },
     {
      "word": "Problem",
-     "start": 44.54,
-     "end": 44.74
+     "start": 39.75,
+     "end": 40.01
     },
     {
      "word": "one,",
-     "start": 44.74,
-     "end": 45.1
+     "start": 40.01,
+     "end": 40.31
     },
     {
      "word": "as",
-     "start": 45.3,
-     "end": 45.5
+     "start": 40.71,
+     "end": 40.89
     },
     {
      "word": "formalized",
-     "start": 45.5,
-     "end": 45.92
+     "start": 40.89,
+     "end": 41.37
     },
     {
      "word": "in",
-     "start": 45.92,
-     "end": 46.3
+     "start": 41.37,
+     "end": 41.69
     },
     {
      "word": "Lean,",
-     "start": 46.3,
-     "end": 46.32
+     "start": 41.69,
+     "end": 41.73
     },
     {
      "word": "has",
-     "start": 46.7,
-     "end": 46.84
+     "start": 42.11,
+     "end": 42.17
     },
     {
      "word": "a",
-     "start": 46.84,
-     "end": 47.1
+     "start": 42.17,
+     "end": 42.41
     },
     {
      "word": "complete",
-     "start": 47.1,
-     "end": 47.46
+     "start": 42.41,
+     "end": 42.67
     },
     {
      "word": "machine-checked",
-     "start": 47.46,
-     "end": 48.68
+     "start": 42.67,
+     "end": 43.63
     },
     {
      "word": "proof.",
-     "start": 48.68,
-     "end": 48.7
+     "start": 43.63,
+     "end": 43.63
     },
     {
      "word": "The",
-     "start": 49.32,
-     "end": 49.64
+     "start": 44.25,
+     "end": 44.41
     },
     {
      "word": "manuscript",
-     "start": 49.64,
-     "end": 50.02
+     "start": 44.41,
+     "end": 44.77
     },
     {
      "word": "behind",
-     "start": 50.02,
-     "end": 50.46
+     "start": 44.77,
+     "end": 45.21
     },
     {
      "word": "it",
-     "start": 50.46,
-     "end": 50.7
+     "start": 45.21,
+     "end": 45.41
     },
     {
      "word": "is",
-     "start": 50.7,
-     "end": 51.14
+     "start": 45.41,
+     "end": 45.83
     },
     {
      "word": "still",
-     "start": 51.14,
-     "end": 51.52
+     "start": 45.83,
+     "end": 46.11
     },
     {
      "word": "unrefereed.",
-     "start": 51.52,
-     "end": 52.2
+     "start": 46.11,
+     "end": 46.69
     }
    ]
   }

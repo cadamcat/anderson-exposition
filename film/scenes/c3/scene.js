@@ -500,7 +500,7 @@ line(connector.svg, 6, 0, 6, 180, "var(--ink)", 1.5);
 
 const timeWord = labelBox("time-word", 160, 452, 160, 48, [{ text: "time" }]);
 const kappaLab = labelBox("kappa-note", 340, 452, 480, 48, [{ text: "\u03ba > 0 small" }]);
-const heatLab = labelBox("heat-note", 1100, 168, 520, 52, [{ text: "spreads like heat" }]);
+const heatLab = labelBox("heat-note", 1100, 168, 520, 52, [{ text: "scaling limit: like heat" }]);
 const overLab = labelBox("over-note", 160, 560, 560, 52, [{ text: "damping \u2248 1 / time" }]);
 const dampName = labelBox("damp-axis", 160, 668, 480, 52, [
   { text: "damping " },

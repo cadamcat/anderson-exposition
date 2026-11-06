@@ -64,7 +64,7 @@ const C = {
   every: cue("c2b5", "Every"),
   spectral: cue("c2b5", "spectral"),
   point: cue("c2b6", "Point"),
-  smooth: cue("c2b6", "smooth"),
+  smooth: cue("c2b6", "density"),
   barry: cue("c2b7", "Barry"),
   eigenvalues: cue("c2b8", "eigenvalues"),
   range: cue("c2b8", "range"),
@@ -89,7 +89,7 @@ const LAM_IN = need("c2b4", "lambda", 0.5, "half width lambda");
 const SHIFT = need("c2b5", "Every", 0.8, "lattice leaves and axis widens");
 const MEASURE = need("c2b5", "spectral", 0.8, "spectral measure grows");
 const POINT_IN = need("c2b6", "Point", 0.5, "eigenvalue spikes highlight");
-const SMOOTH_IN = need("c2b6", "smooth", 0.5, "continuous density highlights");
+const SMOOTH_IN = need("c2b6", "density", 0.5, "continuous density highlights");
 const CARD_IN = need("c2b7", "Barry", 0.4, "problem card slides in");
 const SPIKE_OUT = need("c2b8", "eigenvalues", 0.6, "spikes inside the range fade");
 const RANGE_IN = need("c2b8", "range", 0.6, "interval bracket settles");

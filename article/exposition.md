@@ -2,12 +2,12 @@
 title: "Extended states in the Anderson model"
 subtitle: "Simon's Problem 1, a claimed proof of absolutely continuous spectrum in dimensions three and higher, and what its Lean formalization checks"
 author: "Yao Xu"
-date: "Version 1.0.1, November 2026"
+date: "Version 1.0.2, November 2026"
 ---
 
 # Summary {-}
 
-In 2000 Barry Simon asked for a proof that the Anderson model on $\mathbb Z^\nu$, $\nu\ge 3$, with independent site potentials uniform on $[a,b]$, has *purely absolutely continuous spectrum in some energy range* for suitable disorder widths $b-a$ (Problem 1 of [@Simon2000]). Every rigorous spectral result for this model on a lattice of dimension at least two had until then been a localization result: pure point spectrum at large disorder or near the spectral edges. Absolutely continuous spectrum at weak disorder had been proved only on trees.
+In 2000 Barry Simon asked for a proof that the Anderson model on $\mathbb Z^\nu$, $\nu\ge 3$, with independent site potentials uniform on $[a,b]$, has *purely absolutely continuous spectrum in some energy range* for suitable disorder widths $b-a$ (Problem 1 of [@Simon2000]). Localization (pure point spectrum) had been proved for this model at large disorder and near the spectral edges, but no interval of absolutely continuous spectrum had been proved on a lattice of dimension at least two; absolutely continuous spectrum at weak disorder had been proved only on trees.
 
 In September 2026 OpenAI posted a 93-page manuscript [@OpenAI2026] whose Theorem 1.1 asserts exactly such a result: for every $d\ge3$ there is a threshold $\lambda_d>0$ such that, for $0<\lambda<\lambda_d$, almost surely a fixed open interval $I_d$ just above the bottom of the free band lies in the spectrum and carries only absolutely continuous spectrum, with nonzero weight. The manuscript has not been independently refereed.
 
@@ -42,9 +42,9 @@ The two are related by three exact changes. The disorder strength is half the wi
 
 ## 1.2 Spectral types
 
-Every vector $\psi$ has a *spectral measure* $\mu_\psi$, the finite Borel measure on $\mathbb R$ with $\langle\psi,f(H)\psi\rangle=\int f\,d\mu_\psi$ for bounded Borel $f$. By Lebesgue's decomposition it splits into a pure point part (atoms, which are eigenvalues), a singular continuous part and an absolutely continuous part (a density with respect to Lebesgue measure). The spectrum of $H$ restricted to an energy interval $I$ is *purely absolutely continuous* when every spectral measure, restricted to $I$, has a density; it is *nontrivial* there when the spectral projection $\chi_I(H)$ is nonzero.
+Every vector $\psi$ has a *spectral measure* $\mu_\psi$, the finite Borel measure on $\mathbb R$ with $\langle\psi,f(H)\psi\rangle=\int f\,d\mu_\psi$ for bounded Borel $f$. By Lebesgue's decomposition it splits into a pure point part (atoms, which come from eigenvectors), a singular continuous part and an absolutely continuous part (a density with respect to Lebesgue measure). The spectrum of $H$ restricted to an energy interval $I$ is *purely absolutely continuous* when every spectral measure, restricted to $I$, has a density; it is *nontrivial* there when the spectral projection $\chi_I(H)$ is nonzero.
 
-The physical meaning is the usual one, stated here as a **heuristic**: eigenvectors with exponentially decaying amplitude are localized states that stay near where they started, while absolutely continuous spectrum corresponds to states that spread through the lattice; the RAGE theorem makes the second half precise in a time-averaged sense. Anderson's 1958 paper [@Anderson1958] predicted that strong disorder localizes every state. The question of extended states is whether, in three or more dimensions and at weak disorder, some energies still carry transport.
+The physical meaning is the usual one, stated here as a **heuristic**: eigenvectors with exponentially decaying amplitude are localized states that stay near where they started, while absolutely continuous spectrum corresponds to states that spread through the lattice; the RAGE theorem makes the second half precise in a time-averaged sense, though it applies equally to singular continuous states and says nothing about a rate of spreading. That eigenfunctions decay exponentially is an additional property, proved in the localization regimes below; it is not part of the definition of an atom. Anderson's 1958 paper [@Anderson1958] predicted that strong disorder localizes every state. The question of extended states is whether, in three or more dimensions and at weak disorder, some energies still carry transport.
 
 A standard tool converts spectral type into resolvent estimates (**proved**). The Borel transform $F_\psi(z)=\langle\psi,(H-z)^{-1}\psi\rangle$ has, for Lebesgue-almost every $E$, a boundary value $\mathrm{Im}\,F_\psi(E+i0)$; this equals $\pi$ times the density of the absolutely continuous part, and the singular part lives on the set where the boundary value is $+\infty$. In particular $\mu_\psi$ is purely absolutely continuous on $I$ if $\limsup_{\varepsilon\downarrow0}\mathrm{Im}\,F_\psi(E+i\varepsilon)<\infty$ for every $E\in I$ [@Teschl2009, Theorem 3.23 and Corollary 3.24]. Spectral questions therefore become questions about the Green function $G_{xy}(z)=\langle e_x,(H-z)^{-1}e_y\rangle$ as $z$ approaches the real axis.
 
@@ -58,7 +58,7 @@ Problem 1 asks for less than Simon's full picture. It asks neither for a mobilit
 
 ## 2.1 Localization
 
-Rigorous results on $\mathbb Z^d$ before 2026 established localization (all **proved**). In one dimension the spectrum is dense pure point for every disorder [@KunzSouillard1980], as Simon notes [@Simon2000, p. 284]. In every dimension, at large disorder or at energies near the edges of the spectrum, Fröhlich and Spencer's multiscale analysis [@FrohlichSpencer1983] and its sequel by Fröhlich, Martinelli, Scoppola and Spencer [@FMSS1985] give pure point spectrum with exponentially decaying eigenfunctions, and the fractional-moment method of Aizenman and Molchanov [@AizenmanMolchanov1993] gives a second route. Simon and Wolff's rank-one theory [@SimonWolff1986] turns decay of the Green function into pure point spectrum. Elgart and Klein proved localization in an energy interval at the bottom of the spectrum at fixed disorder, for a class of single-site laws that includes the uniform one [@ElgartKlein2019]; the manuscript uses this result for its Corollary 1.2. These methods exploit decay of the Green function; none can produce absolutely continuous spectrum.
+Rigorous results on $\mathbb Z^d$ before 2026 established localization (all **proved**). In one dimension the spectrum is dense pure point for every disorder [@KunzSouillard1980], as Simon notes [@Simon2000, p. 284]. In every dimension, at large disorder or at energies near the edges of the spectrum, Fröhlich and Spencer's multiscale analysis [@FrohlichSpencer1983] and its sequel by Fröhlich, Martinelli, Scoppola and Spencer [@FMSS1985] give pure point spectrum with exponentially decaying eigenfunctions, and the fractional-moment method of Aizenman and Molchanov [@AizenmanMolchanov1993] gives a second route. Simon and Wolff's rank-one theory [@SimonWolff1986] turns decay of the Green function into pure point spectrum. Elgart and Klein proved localization in an energy interval at the bottom of the spectrum at fixed disorder, for a class of single-site laws that includes the uniform one, by a multiscale analysis of finite-volume eigensystems rather than of Green functions [@ElgartKlein2019]; the manuscript uses this result for its Corollary 1.2. These are localization criteria, and none of these results gives an interval of absolutely continuous spectrum.
 
 ## 2.2 Extended states on trees
 
@@ -74,7 +74,7 @@ Two features separate $\mathbb Z^d$ from a tree; both are **heuristic** descript
 
 *Loops.* Removing a site from a tree splits it into independent branches, so the diagonal Green function satisfies an exact recursion $G_{00}=\bigl(V_0-z-\sum_{j\sim0}G^{(0)}_{jj}\bigr)^{-1}$ whose terms on the right are independent copies of the same object. Klein's proof studies this recursion as a fixed-point equation for a distribution. On $\mathbb Z^d$ the neighbours of a removed site remain connected through many loops, the terms are correlated, and no closed equation exists.
 
-*The approach to the real axis.* Time $T$ corresponds roughly to resolvent damping $\eta\approx1/T$, so the finite-time results above control $(H-E-i\eta)^{-1}$, on average, for $\eta$ down to about $\lambda^{2+\kappa}$. Spectral type needs the limit $\eta\downarrow0$ at fixed $\lambda$. Between the two lies the regime in which a wave scatters infinitely often, and the expansion's error terms are no longer small.
+*The approach to the real axis.* Damping $\eta$ weights the propagator by $e^{-\eta t}$, so it emphasizes times of order $1/\eta$; this is the analogy that places the finite-time results above at $\eta$ of about $\lambda^{2+\kappa}$. It is an analogy, not a deduction: a finite-time scaling limit is not a resolvent estimate. Positive-height resolvent estimates of this kind are proved directly, in a Gaussian model, by Black, Drogin and Hernández [@BlackDroginHernandez2025]. Spectral type needs the limit $\eta\downarrow0$ at fixed $\lambda$. Between the two lies the regime in which a wave scatters infinitely often, and the expansion's error terms are no longer small.
 
 ![The energy axis in the manuscript's convention. The almost-sure spectrum is $[-2d-\lambda,\,2d+\lambda]$; the free band is $[-2d,2d]$. The interval $J$ at the bottom edge carries pure point spectrum (Elgart and Klein, proved). The interval $I_d$, just above $-2d$, is where Theorem 1.1 claims purely absolutely continuous spectrum. The rest of the spectrum is not addressed. Not to scale.](figures/energy-axis.svg){#fig:axis width=100%}
 
@@ -115,7 +115,7 @@ and work on the periodic torus $\mathbb T_L=(\mathbb Z/L\mathbb Z)^d$ with $L=4^
 $$
 \widehat G=\bigl(H_m-E-\eta\,\mathrm{diag}_A r\bigr)^{-1}\ \text{exists and}\ \mathrm{Im}\,\widehat G_{ii}\ge c\quad(i\in A).
 $$
-Here $H_m$ is the periodic Anderson matrix with the *true* potentials at every site. In words: after adding a tiny imaginary damping $\eta\asymp4^{-m}$ on half of the sites, the diagonal of the Green function still has imaginary part bounded below, uniformly in the volume. A lower bound on $\mathrm{Im}\,G_{ii}$ as the damping goes to zero is the signature of absolutely continuous spectrum (Section 1.2); Section 9 makes this precise.
+Here $H_m$ is the periodic Anderson matrix with the *true* potentials at every site. In words: after adding a tiny complex damping term $\eta\,r_i$, with $\eta\asymp4^{-m}$ and $\mathrm{Im}\,r_i\ge c$, on at least half of the sites, the diagonal of the Green function still has imaginary part bounded below, uniformly in the volume. A lower bound on $\mathrm{Im}\,G_{ii}$ as the damping goes to zero is the signature of absolutely continuous spectrum (Section 1.2); Section 9 makes this precise.
 
 The construction may use auxiliary randomness and may choose $A$ and $r$ adaptively; only the true potential vector must keep its product law.
 
@@ -125,9 +125,9 @@ A uniform variable on $[-\lambda,\lambda]$ is a sum of independent fair signs [@
 $$
 \lambda V_i=\sum_{k\ge1}\lambda\,2^{-k}\varepsilon_{i,k},\qquad \mathbb P(\varepsilon_{i,k}=\pm1)=\tfrac12 .
 $$
-After the first $h$ signs at a site are known, the unknown remainder is uniform on $[-\lambda2^{-h},\lambda2^{-h}]$ with variance $\lambda^2 4^{-h}/3$. With $h=n-n_0$ digits known, this variance is exactly $s_n$. The construction starts from the free operator, with every potential set to zero, and reveals the signs stage by stage. At stage $n$ it does not use the unknown remainder at all: it replaces it by an imaginary damping $t_n\,r_i$ on the diagonal, of the same size $t_n\approx s_n$ as the remainder's variance.
+After the first $h$ signs at a site are known, the unknown remainder is uniform on $[-\lambda2^{-h},\lambda2^{-h}]$ with variance $\lambda^2 4^{-h}/3$. With $h=n-n_0$ digits known, this variance is exactly $s_n$. The construction starts from the free operator, with every potential set to zero, and reveals the signs stage by stage. At stage $n$ it does not use the unknown remainder at all: it replaces it by a complex diagonal self-energy $t_n\,r_i$, whose imaginary part provides damping, of the same size $t_n\approx s_n$ as the remainder's variance.
 
-As a **heuristic**: a small random term of variance $s$ shifts the averaged resolvent, to second order, by the self-energy $s\,G_{ii}$. The stage-end condition $r_i=g_{ii}$ (Section 4.3) is a self-consistent equation of this type, so the damped matrix is a mean-field stand-in for the part of the disorder not yet revealed. Each revealed digit replaces part of the artificial damping by true randomness. The damping can never vanish, but by the last stage it has fallen to $\eta=s_m$, and the potentials at all remaining sites are their complete true values.
+As a **heuristic**: a small random term of variance $s$ shifts the averaged resolvent, to second order, by the self-energy $s\,G_{ii}$. The stage-end condition $r_i=g_{ii}$ (Section 4.3) is a self-consistent equation of this type, so the damped matrix is a mean-field stand-in for the part of the disorder not yet revealed. Each revealed digit replaces part of the artificial damping by true randomness. The damping can never vanish, but by the last stage it has fallen to $t_m=s_m+\eta=2\eta$, a final residual sweep brings it to $\eta=s_m$, and the potentials at all remaining sites are their complete true values.
 
 ![Stage by stage, the variance $s_n$ of the unrevealed part of each potential falls by a factor of four, and the artificial damping $t_n=s_n+\eta$ falls with it to the final floor $\eta$. Schematic.](figures/digits.svg){#fig:digits width=85%}
 
@@ -141,9 +141,9 @@ The resolvent identity gives the *Ward identity* [@OpenAI2026, eq. (5)]
 $$
 h\,\mathrm{diag}(p)\,h^*=\mathrm{Im}\,g,\qquad Fp=q .
 $$
-(Indeed $g-g^*=g\bigl((g^*)^{-1}-g^{-1}\bigr)g^*=2it\,g\,\mathrm{diag}(p)\,g^*$, since $M$ is real symmetric.) Three quantities are carried through the whole construction [@OpenAI2026, §2.4]:
+(Indeed $g-g^*=g\bigl((g^*)^{-1}-g^{-1}\bigr)g^*=2it\,g\,\mathrm{diag}(p)\,g^*$, since $M$ is real symmetric.) Three quantities are controlled at every stage boundary [@OpenAI2026, §2.4]; during a stage $r$ stays frozen, and a diagonal lag between $r_i$ and $g_{ii}$ develops, which the reset at the end of the stage removes:
 
-- **The squared-entry matrix $K$.** Since $\partial g_{ii}/\partial r_j=t\,g_{ij}^2=K_{ij}$, the linearization of the self-consistency equation $r=(g_{ii}(r))_i$ is $I-K$. Keeping $\|K\|\le1/3$ makes the stage-end reset solvable.
+- **The squared-entry matrix $K$.** Since $\partial g_{ii}/\partial r_j=t\,g_{ij}^2=K_{ij}$, the linearization of the self-consistency equation $r=(g_{ii}(r))_i$ is $I-K$. Keeping $\|K\|\le1/3$, together with a small diagonal lag and a bound on the inverse in a spatial norm, makes the stage-end reset solvable [@OpenAI2026, Propositions 7.4–7.5]. The bounds on $K$ and on the Laplacian below are asserted at stage boundaries, not at every intermediate step of a clearing.
 - **Row fourth moments.** The bound $\max_i\sum_j|h_{ij}|^4\le t^{1+\delta}$, with $\delta=0.01$, prevents the Ward mass of a row from concentrating at a few sites, so that no single update can move much.
 - **The Ward Laplacian.** By the Ward identity,
 $$D=\mathrm{diag}(pq)-\mathrm{diag}(p)\,F\,\mathrm{diag}(p),\qquad D(f)=\tfrac12\sum_{i,j}p_ip_jF_{ij}\,|f_i-f_j|^2,$$
@@ -204,7 +204,7 @@ Its final theorem is
 ```lean
 theorem AndersonAC.Blueprint.anderson_challenge : AndersonChallenge.Statement
 ```
-where `AndersonChallenge.Statement` is defined in `AndersonAC/Challenge.lean`, a file whose only import is Mathlib. Section 6 reads it clause by clause. The following checks were run on a fresh clone of the public tag (**Lean**):
+where `AndersonChallenge.Statement` is defined in `AndersonAC/Challenge.lean`, a file whose only import is Mathlib. Section 6 reads it clause by clause. The following checks were run on a fresh clone of the public tag `v1.0.0`; their record is `docs/verification.md` at tag `v1.0.2` (commit `51e7e5f`), and the non-vacuity file was added in `v1.0.1` (**Lean**):
 
 | Check | Result |
 |---|---|
@@ -311,7 +311,9 @@ The literature is cited from the original publications; the manuscript's own his
 
 # Appendix A. Manuscript sections and Lean packages {-}
 
-| Manuscript | Content | Lean package (`AndersonAC.Blueprint.Packages.*`) |
+The package names below are in the namespace `AndersonAC.Blueprint.Packages`.
+
+| Manuscript | Content | Lean package |
 |---|---|---|
 | §2 | certificate, digits, Ward identity | `ward`, `binary` |
 | §3 | initialization | `initialization` |
