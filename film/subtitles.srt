@@ -1,0 +1,658 @@
+1
+00:00:00,600 --> 00:00:04,640
+Give every site of a three-dimensional
+grid its own random energy.
+
+2
+00:00:05,560 --> 00:00:06,910
+Here we show one layer.
+
+3
+00:00:07,600 --> 00:00:11,880
+Now release a quantum wave.
+When the disorder is strong,
+
+4
+00:00:12,240 --> 00:00:13,930
+the wave stays where it started.
+
+5
+00:00:14,880 --> 00:00:18,100
+But when the disorder is weak,
+in three or more dimensions,
+
+6
+00:00:18,700 --> 00:00:20,290
+some waves should travel forever.
+
+7
+00:00:21,410 --> 00:00:25,640
+Proving this has long resisted
+mathematics. Here is a claimed proof,
+
+8
+00:00:25,640 --> 00:00:27,930
+and what a proof checker has verified.
+
+9
+00:00:30,333 --> 00:00:32,183
+The setting is the Anderson model.
+
+10
+00:00:32,923 --> 00:00:35,643
+The sites form the integer
+lattice in d dimensions.
+
+11
+00:00:37,223 --> 00:00:39,263
+A wave assigns a number to every site.
+
+12
+00:00:39,963 --> 00:00:43,603
+The operator H acts on a wave u.
+At each site n,
+
+13
+00:00:44,023 --> 00:00:46,713
+it adds up the values of
+u at the neighbours of n.
+
+14
+00:00:47,253 --> 00:00:52,663
+Then it adds V of n, times u of n.
+Here V of n is the energy of site n.
+
+15
+00:00:53,333 --> 00:00:57,603
+The energies are independent random
+numbers, uniform between a and b.
+
+16
+00:00:58,203 --> 00:01:03,293
+The width, b minus a, measures the
+disorder. We call half the width lambda.
+
+17
+00:01:03,953 --> 00:01:05,703
+Every wave has a spectral measure.
+
+18
+00:01:06,263 --> 00:01:08,573
+It spreads the wave's
+weight over the energies.
+
+19
+00:01:09,193 --> 00:01:13,003
+Point masses are eigenvalues.
+They belong to localized states.
+
+20
+00:01:13,783 --> 00:01:16,843
+A smooth density is the
+absolutely continuous part.
+
+21
+00:01:17,403 --> 00:01:19,893
+It is carried by states that
+spread through the lattice.
+
+22
+00:01:20,693 --> 00:01:24,343
+In the year two thousand,
+Barry Simon listed this as Problem one.
+
+23
+00:01:25,103 --> 00:01:27,643
+In three or more dimensions,
+for suitable disorder,
+
+24
+00:01:28,223 --> 00:01:31,703
+prove purely absolutely continuous
+spectrum in some range of energies.
+
+25
+00:01:32,343 --> 00:01:36,303
+Purely means no eigenvalues,
+and no singular part, in that range.
+
+26
+00:01:36,843 --> 00:01:40,013
+And the range must lie in the spectrum,
+with nonzero weight.
+
+27
+00:01:42,433 --> 00:01:46,793
+Every theorem on the lattice pointed
+the other way. In one dimension,
+
+28
+00:01:47,333 --> 00:01:49,893
+all states are localized.
+In any dimension,
+
+29
+00:01:50,293 --> 00:01:52,533
+strong disorder gives localization too,
+
+30
+00:01:52,993 --> 00:01:55,493
+and so do energies near
+the edge of the spectrum.
+
+31
+00:01:56,233 --> 00:02:00,753
+Extended states had been proved only
+on trees, such as the Bethe lattice.
+
+32
+00:02:01,473 --> 00:02:04,723
+That was the work of Abel Klein,
+in the nineteen nineties.
+
+33
+00:02:05,333 --> 00:02:10,593
+The main tool is the Green function,
+G of z. It is the inverse of H minus z.
+
+34
+00:02:11,033 --> 00:02:15,153
+Here z is an energy E,
+plus a small imaginary part, eta.
+
+35
+00:02:15,953 --> 00:02:16,953
+Eta acts as a damping.
+
+36
+00:02:17,533 --> 00:02:21,933
+On a tree, removing one site splits
+the graph into independent branches.
+
+37
+00:02:22,973 --> 00:02:26,813
+So the Green function at that
+site obeys an exact recursion,
+
+38
+00:02:26,813 --> 00:02:28,083
+in terms of the branches.
+
+39
+00:02:28,673 --> 00:02:33,343
+On the lattice, loops tie the neighbours
+back together. No such equation closes.
+
+40
+00:02:34,023 --> 00:02:38,773
+Perturbation theory follows the averaged
+wave for long, but finite, times,
+
+41
+00:02:38,773 --> 00:02:42,073
+of order lambda to the
+minus two minus kappa.
+
+42
+00:02:43,113 --> 00:02:46,533
+Here kappa is a small positive number.
+Over those times,
+
+43
+00:02:46,853 --> 00:02:51,613
+the wave spreads like heat. That is
+the work of Erdős, Salmhofer and Yau.
+
+44
+00:02:52,393 --> 00:02:57,153
+Following a wave up to some time is like
+damping the Green function by one over
+
+45
+00:02:57,153 --> 00:03:01,633
+that time. So these results reach a
+damping of about lambda to the two plus
+
+46
+00:03:01,633 --> 00:03:02,633
+kappa.
+
+47
+00:03:02,803 --> 00:03:07,373
+But spectral type is a statement about
+all times. The damping must go to zero,
+
+48
+00:03:07,373 --> 00:03:10,823
+at fixed disorder.
+That last limit is the obstacle.
+
+49
+00:03:13,233 --> 00:03:18,453
+In September twenty twenty-six, OpenAI
+posted a manuscript of ninety-three pages.
+
+50
+00:03:19,293 --> 00:03:23,393
+It claims a proof for the uniform model,
+in every dimension from three up.
+
+51
+00:03:23,953 --> 00:03:25,923
+It has not been independently refereed.
+
+52
+00:03:26,523 --> 00:03:29,413
+Its Theorem one point
+one centres the energies,
+
+53
+00:03:29,753 --> 00:03:34,033
+so they lie between minus lambda
+and lambda. For small enough lambda,
+
+54
+00:03:34,733 --> 00:03:39,053
+almost surely, a fixed interval just
+above the bottom of the band lies in the
+
+55
+00:03:39,053 --> 00:03:43,013
+spectrum. And there, the spectrum
+is purely absolutely continuous.
+
+56
+00:03:43,773 --> 00:03:47,913
+Here is the plan of the argument,
+as a map. Each box is a stage,
+
+57
+00:03:48,413 --> 00:03:52,663
+and we will visit them in order.
+Everything aims at one finite certificate.
+
+58
+00:03:53,223 --> 00:03:55,813
+The certificate lives
+on a large periodic box.
+
+59
+00:03:56,613 --> 00:03:58,553
+Add a tiny damping on half of the sites.
+
+60
+00:03:59,213 --> 00:04:03,093
+Then the Green function at those sites
+keeps an imaginary part bounded below,
+
+61
+00:04:03,593 --> 00:04:07,323
+however large the box.
+And the damping shrinks as the box grows.
+
+62
+00:04:07,963 --> 00:04:12,053
+A lower bound that survives as the
+damping goes to zero is the signature of
+
+63
+00:04:12,053 --> 00:04:13,683
+absolutely continuous spectrum.
+
+64
+00:04:14,353 --> 00:04:17,993
+To build the certificate, the construction
+starts with no disorder at all.
+
+65
+00:04:18,713 --> 00:04:22,453
+Then it reveals each random
+energy one binary digit at a time.
+
+66
+00:04:23,253 --> 00:04:24,513
+Each digit is a fair coin,
+
+67
+00:04:24,573 --> 00:04:27,793
+and moves the energy up or
+down by half the previous step.
+
+68
+00:04:28,363 --> 00:04:30,773
+The digits not yet revealed
+are replaced by a damping,
+
+69
+00:04:30,873 --> 00:04:32,873
+of the same size as their variance.
+
+70
+00:04:33,273 --> 00:04:35,813
+It is a mean-field stand-in
+for the hidden disorder.
+
+71
+00:04:35,813 --> 00:04:39,553
+Each revealed digit trades
+damping for true randomness.
+
+72
+00:04:40,228 --> 00:04:43,788
+Three controls are carried
+through every stage. First,
+
+73
+00:04:44,028 --> 00:04:47,168
+the damping at each site must match
+the Green function it produces.
+
+74
+00:04:48,008 --> 00:04:50,108
+That self-consistent
+equation stays solvable,
+
+75
+00:04:50,188 --> 00:04:52,804
+because its feedback
+stays below one third.
+
+76
+00:04:53,334 --> 00:04:56,848
+Second, no row of the Green function
+concentrates on a few sites.
+
+77
+00:04:57,388 --> 00:04:59,308
+So no single update can move much.
+
+78
+00:05:00,048 --> 00:05:02,428
+Third, an exact identity,
+the Ward identity,
+
+79
+00:05:03,008 --> 00:05:04,908
+turns the Green function
+into a weighted graph.
+
+80
+00:05:05,528 --> 00:05:09,068
+Its Laplacian adds up many small
+local changes into one bound.
+
+81
+00:05:09,748 --> 00:05:14,008
+Updates are tested on finite tiles.
+A failed trial is rolled back.
+
+82
+00:05:14,528 --> 00:05:15,838
+Its sites are marked pending.
+
+83
+00:05:16,428 --> 00:05:19,088
+Later, small clusters of
+pending sites are cleared.
+
+84
+00:05:19,708 --> 00:05:23,028
+A scattering matrix measures how a
+cluster couples to the sites around it.
+
+85
+00:05:23,688 --> 00:05:27,528
+When that coupling is weak, completing the
+cluster changes the rest only a little.
+
+86
+00:05:28,248 --> 00:05:32,388
+With high probability, nothing is pending
+at the end. The last digits go in,
+
+87
+00:05:32,608 --> 00:05:33,768
+and the certificate holds.
+
+88
+00:05:34,358 --> 00:05:36,568
+A final spectral argument
+reads the certificate.
+
+89
+00:05:36,948 --> 00:05:40,868
+It gives absolutely continuous spectrum
+on the interval, almost surely,
+
+90
+00:05:41,368 --> 00:05:45,879
+with no eigenvalues and no singular part.
+That is Theorem one point one.
+
+91
+00:05:48,300 --> 00:05:52,400
+So what is established?
+Here is the ledger.
+
+92
+00:05:53,200 --> 00:05:58,660
+Proved, and peer reviewed: localization,
+in one dimension and at strong disorder.
+
+93
+00:05:59,940 --> 00:06:03,830
+Extended states on trees.
+And diffusion up to long, finite times.
+
+94
+00:06:04,690 --> 00:06:09,340
+Claimed: the manuscript itself.
+Its text has not been refereed.
+
+95
+00:06:09,970 --> 00:06:12,860
+Checked by the Lean proof assistant:
+the whole argument,
+
+96
+00:06:13,340 --> 00:06:18,820
+formalized from start to finish. It
+proves Theorem one point one, and from it,
+
+97
+00:06:19,140 --> 00:06:21,140
+a precise statement of Simon's problem.
+
+98
+00:06:21,770 --> 00:06:24,080
+And the pictures in this
+film are explanations,
+
+99
+00:06:24,860 --> 00:06:29,000
+including the mean-field reading
+of the damping. They prove nothing.
+
+100
+00:06:29,570 --> 00:06:33,020
+In short: Simon's Problem one,
+as formalized in Lean,
+
+101
+00:06:33,400 --> 00:06:38,900
+has a complete machine-checked proof. The
+manuscript behind it is still unrefereed.
+
+102
+00:06:41,300 --> 00:06:45,320
+Here is the plan again.
+Every box is formalized in Lean,
+
+103
+00:06:45,680 --> 00:06:50,520
+and every step is proved.
+A blue seal marks a proved box.
+
+104
+00:06:51,310 --> 00:06:53,960
+Two boxes follow Theorem one point one.
+
+105
+00:06:54,700 --> 00:06:57,160
+The first restates it
+in Simon's conventions.
+
+106
+00:06:57,960 --> 00:07:01,700
+The second is Simon's problem,
+stated with Mathlib alone,
+
+107
+00:07:02,140 --> 00:07:04,530
+the standard library
+of formal mathematics.
+
+108
+00:07:05,350 --> 00:07:08,320
+In all, the proof has eight
+hundred and fifty-three files,
+
+109
+00:07:08,700 --> 00:07:10,150
+with no unfinished steps.
+
+110
+00:07:11,445 --> 00:07:16,525
+Now the final statement, clause by clause.
+In every dimension d of at least three,
+
+111
+00:07:17,045 --> 00:07:18,675
+there is a width bound, delta.
+
+112
+00:07:19,355 --> 00:07:22,225
+For every interval from a
+to b narrower than delta,
+
+113
+00:07:22,825 --> 00:07:26,002
+there is an open energy interval,
+from E one to E two.
+
+114
+00:07:27,242 --> 00:07:32,665
+Take any independent family of energies,
+uniform on a to b. Then, almost surely,
+
+115
+00:07:33,065 --> 00:07:34,405
+the operator exists,
+
+116
+00:07:34,725 --> 00:07:36,645
+the energy interval lies in its spectrum,
+
+117
+00:07:37,265 --> 00:07:39,985
+every spectral measure is
+absolutely continuous there,
+
+118
+00:07:40,045 --> 00:07:42,715
+and some wave has nonzero weight there.
+
+119
+00:07:43,635 --> 00:07:47,365
+The final theorem uses only
+Lean's three standard axioms.
+
+120
+00:07:48,705 --> 00:07:53,245
+Lean's replay tool checked every
+step again, from scratch. And nanoda,
+
+121
+00:07:53,505 --> 00:07:55,065
+an independently written checker,
+
+122
+00:07:55,685 --> 00:07:58,425
+confirmed that the proved statement
+matches an independent copy.
+
+123
+00:07:59,325 --> 00:08:01,585
+In a control, two replaces three.
+
+124
+00:08:02,125 --> 00:08:04,385
+Then the statement no longer
+matches the one proved.
+
+125
+00:08:05,365 --> 00:08:07,305
+The proof covers three dimensions and up.
+
+126
+00:08:08,175 --> 00:08:11,745
+Formalizing every step found one
+literal omission in the manuscript.
+
+127
+00:08:11,745 --> 00:08:16,245
+Its Lemma six point two needs the
+damping scale to be at most one.
+
+128
+00:08:17,325 --> 00:08:19,115
+That holds wherever the lemma is used.
+
+129
+00:08:19,995 --> 00:08:23,665
+What does the check not certify?
+That these definitions say what we claim;
+
+130
+00:08:24,285 --> 00:08:25,785
+you can judge that by reading them.
+
+131
+00:08:26,385 --> 00:08:28,285
+The correctness of the
+library's own definitions.
+
+132
+00:08:29,125 --> 00:08:30,705
+And every sentence of the manuscript.
+
+133
+00:08:31,645 --> 00:08:36,205
+One more caution. The exported statement
+lets the energy interval depend on the
+
+134
+00:08:36,205 --> 00:08:40,165
+width, b minus a.
+Theorem one point one fixes the interval,
+
+135
+00:08:40,705 --> 00:08:44,445
+just above the bottom of the band.
+That fixed form is proved too,
+
+136
+00:08:44,885 --> 00:08:48,875
+but it is stated in the terms of
+OpenAI's Lean library, not Mathlib alone.
+
+137
+00:08:51,300 --> 00:08:55,990
+Even granting the theorem,
+much remains open. The full mobility edge.
+
+138
+00:08:56,710 --> 00:09:01,710
+Quantum diffusion. Two dimensions.
+Other random laws. And explicit constants.
+

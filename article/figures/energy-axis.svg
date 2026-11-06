@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="330" viewBox="0 0 1400 330">
+<rect width="1400" height="330" fill="#F7F4EC"/>
+<line x1="50" y1="170" x2="1350" y2="170" stroke="#1C1B19" stroke-width="2"/>
+<rect x="80.0" y="160" width="1240.0" height="20" fill="#D8D2C4"/>
+<line x1="80.0" y1="152" x2="80.0" y2="188" stroke="#1C1B19" stroke-width="2"/>
+<text x="80.0" y="220" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="24" font-weight="400" fill="#1C1B19" text-anchor="middle"><tspan font-family="KaTeX_Math, KaTeX_MainFB, serif" font-style="italic">−2d−λ</tspan></text>
+<line x1="183.3" y1="152" x2="183.3" y2="188" stroke="#1C1B19" stroke-width="2"/>
+<text x="183.3" y="220" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="24" font-weight="400" fill="#1C1B19" text-anchor="middle"><tspan font-family="KaTeX_Math, KaTeX_MainFB, serif" font-style="italic">−2d</tspan></text>
+<line x1="1216.7" y1="152" x2="1216.7" y2="188" stroke="#1C1B19" stroke-width="2"/>
+<text x="1216.7" y="220" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="24" font-weight="400" fill="#1C1B19" text-anchor="middle"><tspan font-family="KaTeX_Math, KaTeX_MainFB, serif" font-style="italic">2d</tspan></text>
+<line x1="1320.0" y1="152" x2="1320.0" y2="188" stroke="#1C1B19" stroke-width="2"/>
+<text x="1320.0" y="220" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="24" font-weight="400" fill="#1C1B19" text-anchor="middle"><tspan font-family="KaTeX_Math, KaTeX_MainFB, serif" font-style="italic">2d+λ</tspan></text>
+<rect x="80.0" y="156" width="56.0" height="28" fill="#2F6B4F"/>
+<line x1="108.0" y1="154" x2="108.0" y2="100" stroke="#2F6B4F" stroke-width="2"/>
+<text x="80.0" y="90" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="22" font-weight="600" fill="#2F6B4F" text-anchor="start">J: pure point near the edge — proved</text>
+<rect x="196.3" y="156" width="25.8" height="28" fill="#7A4A6E" stroke="#B7791F" stroke-width="4"/>
+<line x1="209.2" y1="186" x2="209.2" y2="256" stroke="#7A4A6E" stroke-width="2"/>
+<text x="192.3" y="282" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="22" font-weight="600" fill="#B7791F" text-anchor="start">I<tspan font-size="16" dy="5">d</tspan><tspan dy="-5">: purely absolutely continuous — claimed (Theorem 1.1)</tspan></text>
+<rect x="192.25000000000003" y="298" width="14" height="14" fill="#2B5C9E"/>
+<text x="214.3" y="311" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="20" font-weight="400" fill="#2B5C9E" text-anchor="start">its consequence for Simon's problem: checked in Lean</text>
+<rect x="243.6" y="158" width="955.8" height="24" fill="none" stroke="#8A8780" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="721.5" y="144" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="22" font-weight="400" fill="#5E5B55" text-anchor="middle">rest of the spectrum: not addressed</text>
+<text x="1350" y="318" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="18" font-weight="400" fill="#5E5B55" text-anchor="end">schematic, not to scale</text>
+<text x="50" y="34" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="22" font-weight="400" fill="#5E5B55" text-anchor="start">energy</text>
+</svg>

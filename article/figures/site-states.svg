@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1150" height="470" viewBox="0 0 1150 470">
+<rect width="1150" height="470" fill="#F7F4EC"/>
+<rect x="40" y="60" width="390" height="360" rx="8" fill="none" stroke="#8E8458" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="235" y="46" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="21" font-weight="400" fill="#8E8458" text-anchor="middle">active sites keep artificial damping</text>
+<rect x="70" y="90" width="330" height="110" rx="8" fill="#FBF8F1" stroke="#1C1B19" stroke-width="2"/>
+<text x="235.0" y="130" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="24" font-weight="600" fill="#1C1B19" text-anchor="middle">Coupled active</text>
+<text x="235.0" y="162" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="20" font-weight="400" fill="#5E5B55" text-anchor="middle">true digits only</text>
+<rect x="70" y="290" width="330" height="110" rx="8" fill="#FBF8F1" stroke="#1C1B19" stroke-width="2"/>
+<text x="235.0" y="330" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="24" font-weight="600" fill="#1C1B19" text-anchor="middle">Pending active</text>
+<text x="235.0" y="362" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="20" font-weight="400" fill="#5E5B55" text-anchor="middle">may use auxiliary digits</text>
+<rect x="760" y="185" width="330" height="110" rx="8" fill="#D8D2C4" stroke="#1C1B19" stroke-width="2"/>
+<text x="925.0" y="225" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="24" font-weight="600" fill="#1C1B19" text-anchor="middle">Committed terminal</text>
+<text x="925.0" y="257" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="20" font-weight="400" fill="#5E5B55" text-anchor="middle">complete true potential,</text>
+<text x="925.0" y="283" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="20" font-weight="400" fill="#5E5B55" text-anchor="middle">permanent</text>
+<line x1="235.0" y1="200" x2="235.0" y2="286" stroke="#1C1B19" stroke-width="2"/><polygon points="235.0,286 230.3,274.9 239.7,274.9" fill="#1C1B19"/>
+<text x="247.0" y="250" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="20" font-weight="400" fill="#1C1B19" text-anchor="start">failed trial</text>
+<line x1="404" y1="135" x2="756" y2="215" stroke="#1C1B19" stroke-width="2"/><polygon points="756,215 744.2,217.1 746.3,208.0" fill="#1C1B19"/>
+<text x="585" y="128" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="20" font-weight="400" fill="#1C1B19" text-anchor="middle">included in a successful clearing</text>
+<line x1="404" y1="345" x2="756" y2="275" stroke="#1C1B19" stroke-width="2"/><polygon points="756,275 746.1,281.7 744.2,272.6" fill="#1C1B19"/>
+<text x="585" y="362" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="20" font-weight="400" fill="#1C1B19" text-anchor="middle">successful clearing</text>
+<text x="1130" y="456" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="18" font-weight="400" fill="#5E5B55" text-anchor="end">after Figure 1 of the manuscript</text>
+</svg>

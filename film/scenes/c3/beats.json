@@ -1,0 +1,1302 @@
+{
+ "chapter": "c3",
+ "voice": "marin",
+ "model": "gpt-4o-mini-tts",
+ "speed": null,
+ "audio": "c3.wav",
+ "duration": 90.79,
+ "inserted": [
+  {
+   "at": 0.0,
+   "seconds": 1.6,
+   "where": "chapter start",
+   "reason": [
+    "chapter title settles"
+   ]
+  },
+  {
+   "at": 36.38,
+   "seconds": 0.06,
+   "where": "after c3b3",
+   "reason": [
+    "damping+0.4: damping label appears"
+   ]
+  },
+  {
+   "at": 90.16,
+   "seconds": 0.63,
+   "where": "after c3b8",
+   "reason": [
+    "tail+0.8: picture fades out"
+   ]
+  }
+ ],
+ "beats": [
+  {
+   "id": "c3b1",
+   "status": "proved",
+   "hold": "short",
+   "paragraph": "1.1",
+   "start": 1.6,
+   "end": 14.66,
+   "holdEnd": 15.03,
+   "text": "Every theorem on the lattice pointed the other way. In one dimension, all states are localized. In any dimension, strong disorder gives localization too, and so do energies near the edge of the spectrum.",
+   "words": [
+    {
+     "word": "Every",
+     "start": 1.6,
+     "end": 2.04
+    },
+    {
+     "word": "theorem",
+     "start": 2.04,
+     "end": 2.56
+    },
+    {
+     "word": "on",
+     "start": 2.56,
+     "end": 2.92
+    },
+    {
+     "word": "the",
+     "start": 2.92,
+     "end": 3.42
+    },
+    {
+     "word": "lattice",
+     "start": 3.42,
+     "end": 3.42
+    },
+    {
+     "word": "pointed",
+     "start": 3.42,
+     "end": 4.0
+    },
+    {
+     "word": "the",
+     "start": 4.0,
+     "end": 4.22
+    },
+    {
+     "word": "other",
+     "start": 4.22,
+     "end": 4.42
+    },
+    {
+     "word": "way.",
+     "start": 4.42,
+     "end": 4.66
+    },
+    {
+     "word": "In",
+     "start": 5.34,
+     "end": 5.34
+    },
+    {
+     "word": "one",
+     "start": 5.34,
+     "end": 5.64
+    },
+    {
+     "word": "dimension,",
+     "start": 5.64,
+     "end": 5.96
+    },
+    {
+     "word": "all",
+     "start": 6.5,
+     "end": 6.76
+    },
+    {
+     "word": "states",
+     "start": 6.76,
+     "end": 6.96
+    },
+    {
+     "word": "are",
+     "start": 6.96,
+     "end": 7.2
+    },
+    {
+     "word": "localized.",
+     "start": 7.2,
+     "end": 7.62
+    },
+    {
+     "word": "In",
+     "start": 8.26,
+     "end": 8.3
+    },
+    {
+     "word": "any",
+     "start": 8.3,
+     "end": 8.66
+    },
+    {
+     "word": "dimension,",
+     "start": 8.66,
+     "end": 9.06
+    },
+    {
+     "word": "strong",
+     "start": 9.46,
+     "end": 9.82
+    },
+    {
+     "word": "disorder",
+     "start": 9.82,
+     "end": 10.22
+    },
+    {
+     "word": "gives",
+     "start": 10.22,
+     "end": 10.58
+    },
+    {
+     "word": "localization",
+     "start": 10.58,
+     "end": 11.24
+    },
+    {
+     "word": "too,",
+     "start": 11.24,
+     "end": 11.7
+    },
+    {
+     "word": "and",
+     "start": 12.16,
+     "end": 12.32
+    },
+    {
+     "word": "so",
+     "start": 12.32,
+     "end": 12.54
+    },
+    {
+     "word": "do",
+     "start": 12.54,
+     "end": 12.86
+    },
+    {
+     "word": "energies",
+     "start": 12.86,
+     "end": 13.22
+    },
+    {
+     "word": "near",
+     "start": 13.22,
+     "end": 13.44
+    },
+    {
+     "word": "the",
+     "start": 13.44,
+     "end": 13.92
+    },
+    {
+     "word": "edge",
+     "start": 13.92,
+     "end": 13.92
+    },
+    {
+     "word": "of",
+     "start": 13.92,
+     "end": 14.06
+    },
+    {
+     "word": "the",
+     "start": 14.06,
+     "end": 14.64
+    },
+    {
+     "word": "spectrum.",
+     "start": 14.64,
+     "end": 14.66
+    }
+   ]
+  },
+  {
+   "id": "c3b2",
+   "status": "proved",
+   "hold": "short",
+   "paragraph": "1.1",
+   "start": 15.03,
+   "end": 23.89,
+   "holdEnd": 24.195,
+   "text": "Extended states had been proved only on trees, such as the Bethe lattice. That was the work of Abel Klein, in the nineteen nineties.",
+   "words": [
+    {
+     "word": "Extended",
+     "start": 15.4,
+     "end": 15.98
+    },
+    {
+     "word": "states",
+     "start": 15.98,
+     "end": 16.36
+    },
+    {
+     "word": "had",
+     "start": 16.36,
+     "end": 16.58
+    },
+    {
+     "word": "been",
+     "start": 16.58,
+     "end": 16.82
+    },
+    {
+     "word": "proved",
+     "start": 16.82,
+     "end": 17.08
+    },
+    {
+     "word": "only",
+     "start": 17.08,
+     "end": 17.48
+    },
+    {
+     "word": "on",
+     "start": 17.48,
+     "end": 17.84
+    },
+    {
+     "word": "trees,",
+     "start": 17.84,
+     "end": 18.18
+    },
+    {
+     "word": "such",
+     "start": 18.8,
+     "end": 18.88
+    },
+    {
+     "word": "as",
+     "start": 18.88,
+     "end": 19.12
+    },
+    {
+     "word": "the",
+     "start": 19.12,
+     "end": 19.44
+    },
+    {
+     "word": "Bethe",
+     "start": 19.44,
+     "end": 19.64
+    },
+    {
+     "word": "lattice.",
+     "start": 19.64,
+     "end": 19.92
+    },
+    {
+     "word": "That",
+     "start": 20.64,
+     "end": 20.94
+    },
+    {
+     "word": "was",
+     "start": 20.94,
+     "end": 21.12
+    },
+    {
+     "word": "the",
+     "start": 21.12,
+     "end": 21.28
+    },
+    {
+     "word": "work",
+     "start": 21.28,
+     "end": 21.5
+    },
+    {
+     "word": "of",
+     "start": 21.5,
+     "end": 21.98
+    },
+    {
+     "word": "Abel",
+     "start": 21.98,
+     "end": 22.08
+    },
+    {
+     "word": "Klein,",
+     "start": 22.08,
+     "end": 22.42
+    },
+    {
+     "word": "in",
+     "start": 22.42,
+     "end": 22.86
+    },
+    {
+     "word": "the",
+     "start": 22.86,
+     "end": 23.24
+    },
+    {
+     "word": "nineteen",
+     "start": 23.24,
+     "end": 23.57
+    },
+    {
+     "word": "nineties.",
+     "start": 23.57,
+     "end": 23.89
+    }
+   ]
+  },
+  {
+   "id": "c3b3",
+   "status": "definition",
+   "hold": "short",
+   "paragraph": "1.2",
+   "start": 24.195,
+   "end": 36.12,
+   "holdEnd": 36.44,
+   "text": "The main tool is the Green function, G of z. It is the inverse of H minus z. Here z is an energy E, plus a small imaginary part, eta. Eta acts as a damping.",
+   "words": [
+    {
+     "word": "The",
+     "start": 24.5,
+     "end": 24.62
+    },
+    {
+     "word": "main",
+     "start": 24.62,
+     "end": 24.92
+    },
+    {
+     "word": "tool",
+     "start": 24.92,
+     "end": 25.18
+    },
+    {
+     "word": "is",
+     "start": 25.18,
+     "end": 25.4
+    },
+    {
+     "word": "the",
+     "start": 25.4,
+     "end": 25.56
+    },
+    {
+     "word": "Green",
+     "start": 25.56,
+     "end": 25.9
+    },
+    {
+     "word": "function,",
+     "start": 25.9,
+     "end": 26.26
+    },
+    {
+     "word": "G",
+     "start": 26.66,
+     "end": 26.84
+    },
+    {
+     "word": "of",
+     "start": 26.84,
+     "end": 27.0
+    },
+    {
+     "word": "z.",
+     "start": 27.0,
+     "end": 27.18
+    },
+    {
+     "word": "It",
+     "start": 27.7,
+     "end": 27.9
+    },
+    {
+     "word": "is",
+     "start": 27.9,
+     "end": 28.04
+    },
+    {
+     "word": "the",
+     "start": 28.04,
+     "end": 28.46
+    },
+    {
+     "word": "inverse",
+     "start": 28.46,
+     "end": 28.58
+    },
+    {
+     "word": "of",
+     "start": 28.58,
+     "end": 28.86
+    },
+    {
+     "word": "H",
+     "start": 28.86,
+     "end": 29.18
+    },
+    {
+     "word": "minus",
+     "start": 29.18,
+     "end": 29.46
+    },
+    {
+     "word": "z.",
+     "start": 29.46,
+     "end": 29.76
+    },
+    {
+     "word": "Here",
+     "start": 30.2,
+     "end": 30.56
+    },
+    {
+     "word": "z",
+     "start": 30.56,
+     "end": 30.8
+    },
+    {
+     "word": "is",
+     "start": 30.8,
+     "end": 31.02
+    },
+    {
+     "word": "an",
+     "start": 31.02,
+     "end": 31.26
+    },
+    {
+     "word": "energy",
+     "start": 31.26,
+     "end": 31.56
+    },
+    {
+     "word": "E,",
+     "start": 31.56,
+     "end": 31.92
+    },
+    {
+     "word": "plus",
+     "start": 31.92,
+     "end": 32.44
+    },
+    {
+     "word": "a",
+     "start": 32.44,
+     "end": 32.68
+    },
+    {
+     "word": "small",
+     "start": 32.68,
+     "end": 32.92
+    },
+    {
+     "word": "imaginary",
+     "start": 32.92,
+     "end": 33.38
+    },
+    {
+     "word": "part,",
+     "start": 33.38,
+     "end": 33.86
+    },
+    {
+     "word": "eta.",
+     "start": 34.32,
+     "end": 34.32
+    },
+    {
+     "word": "Eta",
+     "start": 35.12,
+     "end": 35.12
+    },
+    {
+     "word": "acts",
+     "start": 35.12,
+     "end": 35.42
+    },
+    {
+     "word": "as",
+     "start": 35.42,
+     "end": 35.66
+    },
+    {
+     "word": "a",
+     "start": 35.66,
+     "end": 36.04
+    },
+    {
+     "word": "damping.",
+     "start": 36.04,
+     "end": 36.12
+    }
+   ]
+  },
+  {
+   "id": "c3b4",
+   "status": "heuristic",
+   "hold": "short",
+   "paragraph": "1.3",
+   "start": 36.44,
+   "end": 47.25,
+   "holdEnd": 47.545,
+   "text": "On a tree, removing one site splits the graph into independent branches. So the Green function at that site obeys an exact recursion, in terms of the branches.",
+   "words": [
+    {
+     "word": "On",
+     "start": 36.7,
+     "end": 36.84
+    },
+    {
+     "word": "a",
+     "start": 36.84,
+     "end": 37.22
+    },
+    {
+     "word": "tree,",
+     "start": 37.22,
+     "end": 37.28
+    },
+    {
+     "word": "removing",
+     "start": 37.8,
+     "end": 38.02
+    },
+    {
+     "word": "one",
+     "start": 38.02,
+     "end": 38.5
+    },
+    {
+     "word": "site",
+     "start": 38.5,
+     "end": 38.68
+    },
+    {
+     "word": "splits",
+     "start": 38.68,
+     "end": 39.32
+    },
+    {
+     "word": "the",
+     "start": 39.32,
+     "end": 39.54
+    },
+    {
+     "word": "graph",
+     "start": 39.54,
+     "end": 39.8
+    },
+    {
+     "word": "into",
+     "start": 39.8,
+     "end": 40.14
+    },
+    {
+     "word": "independent",
+     "start": 40.14,
+     "end": 40.72
+    },
+    {
+     "word": "branches.",
+     "start": 40.72,
+     "end": 41.1
+    },
+    {
+     "word": "So",
+     "start": 42.14,
+     "end": 42.42
+    },
+    {
+     "word": "the",
+     "start": 42.86,
+     "end": 42.92
+    },
+    {
+     "word": "Green",
+     "start": 42.92,
+     "end": 43.28
+    },
+    {
+     "word": "function",
+     "start": 43.28,
+     "end": 43.52
+    },
+    {
+     "word": "at",
+     "start": 43.52,
+     "end": 43.7
+    },
+    {
+     "word": "that",
+     "start": 43.7,
+     "end": 44.08
+    },
+    {
+     "word": "site",
+     "start": 44.08,
+     "end": 44.22
+    },
+    {
+     "word": "obeys",
+     "start": 44.22,
+     "end": 44.54
+    },
+    {
+     "word": "an",
+     "start": 44.54,
+     "end": 44.86
+    },
+    {
+     "word": "exact",
+     "start": 44.86,
+     "end": 45.22
+    },
+    {
+     "word": "recursion,",
+     "start": 45.22,
+     "end": 45.98
+    },
+    {
+     "word": "in",
+     "start": 45.98,
+     "end": 46.28
+    },
+    {
+     "word": "terms",
+     "start": 46.28,
+     "end": 46.52
+    },
+    {
+     "word": "of",
+     "start": 46.52,
+     "end": 46.66
+    },
+    {
+     "word": "the",
+     "start": 46.66,
+     "end": 47.16
+    },
+    {
+     "word": "branches.",
+     "start": 47.16,
+     "end": 47.25
+    }
+   ]
+  },
+  {
+   "id": "c3b5",
+   "status": "heuristic",
+   "hold": "short",
+   "paragraph": "1.3",
+   "start": 47.545,
+   "end": 52.51,
+   "holdEnd": 52.85,
+   "text": "On the lattice, loops tie the neighbours back together. No such equation closes.",
+   "words": [
+    {
+     "word": "On",
+     "start": 47.84,
+     "end": 47.98
+    },
+    {
+     "word": "the",
+     "start": 47.98,
+     "end": 48.48
+    },
+    {
+     "word": "lattice,",
+     "start": 48.48,
+     "end": 48.48
+    },
+    {
+     "word": "loops",
+     "start": 49.08,
+     "end": 49.08
+    },
+    {
+     "word": "tie",
+     "start": 49.08,
+     "end": 49.38
+    },
+    {
+     "word": "the",
+     "start": 49.38,
+     "end": 49.8
+    },
+    {
+     "word": "neighbours",
+     "start": 49.8,
+     "end": 49.8
+    },
+    {
+     "word": "back",
+     "start": 49.8,
+     "end": 50.22
+    },
+    {
+     "word": "together.",
+     "start": 50.22,
+     "end": 50.48
+    },
+    {
+     "word": "No",
+     "start": 51.1,
+     "end": 51.3
+    },
+    {
+     "word": "such",
+     "start": 51.3,
+     "end": 51.56
+    },
+    {
+     "word": "equation",
+     "start": 51.56,
+     "end": 51.94
+    },
+    {
+     "word": "closes.",
+     "start": 51.94,
+     "end": 52.51
+    }
+   ]
+  },
+  {
+   "id": "c3b6",
+   "status": "proved",
+   "hold": "short",
+   "paragraph": "1.4",
+   "start": 52.85,
+   "end": 70.78,
+   "holdEnd": 71.17,
+   "text": "Perturbation theory follows the averaged wave for long, but finite, times, of order lambda to the minus two minus kappa. Here kappa is a small positive number. Over those times, the wave spreads like heat. That is the work of Erdős, Salmhofer and Yau.",
+   "words": [
+    {
+     "word": "Perturbation",
+     "start": 53.19,
+     "end": 53.8
+    },
+    {
+     "word": "theory",
+     "start": 53.8,
+     "end": 54.1
+    },
+    {
+     "word": "follows",
+     "start": 54.1,
+     "end": 54.66
+    },
+    {
+     "word": "the",
+     "start": 54.66,
+     "end": 55.0
+    },
+    {
+     "word": "averaged",
+     "start": 55.0,
+     "end": 55.42
+    },
+    {
+     "word": "wave",
+     "start": 55.42,
+     "end": 55.76
+    },
+    {
+     "word": "for",
+     "start": 55.76,
+     "end": 56.22
+    },
+    {
+     "word": "long,",
+     "start": 56.22,
+     "end": 56.58
+    },
+    {
+     "word": "but",
+     "start": 56.58,
+     "end": 57.16
+    },
+    {
+     "word": "finite,",
+     "start": 57.16,
+     "end": 57.44
+    },
+    {
+     "word": "times,",
+     "start": 57.44,
+     "end": 57.94
+    },
+    {
+     "word": "of",
+     "start": 57.94,
+     "end": 58.62
+    },
+    {
+     "word": "order",
+     "start": 58.62,
+     "end": 58.96
+    },
+    {
+     "word": "lambda",
+     "start": 58.96,
+     "end": 59.32
+    },
+    {
+     "word": "to",
+     "start": 59.32,
+     "end": 59.64
+    },
+    {
+     "word": "the",
+     "start": 59.64,
+     "end": 59.76
+    },
+    {
+     "word": "minus",
+     "start": 59.76,
+     "end": 60.14
+    },
+    {
+     "word": "two",
+     "start": 60.14,
+     "end": 60.5
+    },
+    {
+     "word": "minus",
+     "start": 60.5,
+     "end": 61.0
+    },
+    {
+     "word": "kappa.",
+     "start": 61.0,
+     "end": 61.24
+    },
+    {
+     "word": "Here",
+     "start": 62.28,
+     "end": 62.28
+    },
+    {
+     "word": "kappa",
+     "start": 62.28,
+     "end": 62.58
+    },
+    {
+     "word": "is",
+     "start": 62.58,
+     "end": 62.88
+    },
+    {
+     "word": "a",
+     "start": 62.88,
+     "end": 63.12
+    },
+    {
+     "word": "small",
+     "start": 63.12,
+     "end": 63.4
+    },
+    {
+     "word": "positive",
+     "start": 63.4,
+     "end": 63.82
+    },
+    {
+     "word": "number.",
+     "start": 63.82,
+     "end": 64.18
+    },
+    {
+     "word": "Over",
+     "start": 65.06,
+     "end": 65.06
+    },
+    {
+     "word": "those",
+     "start": 65.06,
+     "end": 65.36
+    },
+    {
+     "word": "times,",
+     "start": 65.36,
+     "end": 65.7
+    },
+    {
+     "word": "the",
+     "start": 66.02,
+     "end": 66.16
+    },
+    {
+     "word": "wave",
+     "start": 66.16,
+     "end": 66.4
+    },
+    {
+     "word": "spreads",
+     "start": 66.4,
+     "end": 66.7
+    },
+    {
+     "word": "like",
+     "start": 66.7,
+     "end": 66.98
+    },
+    {
+     "word": "heat.",
+     "start": 66.98,
+     "end": 67.24
+    },
+    {
+     "word": "That",
+     "start": 67.94,
+     "end": 68.02
+    },
+    {
+     "word": "is",
+     "start": 68.02,
+     "end": 68.16
+    },
+    {
+     "word": "the",
+     "start": 68.16,
+     "end": 68.42
+    },
+    {
+     "word": "work",
+     "start": 68.42,
+     "end": 68.46
+    },
+    {
+     "word": "of",
+     "start": 68.46,
+     "end": 69.02
+    },
+    {
+     "word": "Erdős,",
+     "start": 69.02,
+     "end": 69.02
+    },
+    {
+     "word": "Salmhofer",
+     "start": 69.52,
+     "end": 70.0
+    },
+    {
+     "word": "and",
+     "start": 70.24,
+     "end": 70.72
+    },
+    {
+     "word": "Yau.",
+     "start": 70.72,
+     "end": 70.78
+    }
+   ]
+  },
+  {
+   "id": "c3b7",
+   "status": "heuristic",
+   "hold": "short",
+   "paragraph": "1.4",
+   "start": 71.17,
+   "end": 81.18,
+   "holdEnd": 81.575,
+   "text": "Following a wave up to some time is like damping the Green function by one over that time. So these results reach a damping of about lambda to the two plus kappa.",
+   "words": [
+    {
+     "word": "Following",
+     "start": 71.56,
+     "end": 72.02
+    },
+    {
+     "word": "a",
+     "start": 72.02,
+     "end": 72.44
+    },
+    {
+     "word": "wave",
+     "start": 72.44,
+     "end": 72.44
+    },
+    {
+     "word": "up",
+     "start": 72.44,
+     "end": 72.66
+    },
+    {
+     "word": "to",
+     "start": 72.66,
+     "end": 72.82
+    },
+    {
+     "word": "some",
+     "start": 72.82,
+     "end": 73.06
+    },
+    {
+     "word": "time",
+     "start": 73.06,
+     "end": 73.38
+    },
+    {
+     "word": "is",
+     "start": 73.38,
+     "end": 73.84
+    },
+    {
+     "word": "like",
+     "start": 73.84,
+     "end": 74.14
+    },
+    {
+     "word": "damping",
+     "start": 74.14,
+     "end": 74.32
+    },
+    {
+     "word": "the",
+     "start": 74.32,
+     "end": 74.58
+    },
+    {
+     "word": "Green",
+     "start": 74.58,
+     "end": 74.94
+    },
+    {
+     "word": "function",
+     "start": 74.94,
+     "end": 75.26
+    },
+    {
+     "word": "by",
+     "start": 75.26,
+     "end": 75.78
+    },
+    {
+     "word": "one",
+     "start": 75.78,
+     "end": 76.04
+    },
+    {
+     "word": "over",
+     "start": 76.04,
+     "end": 76.32
+    },
+    {
+     "word": "that",
+     "start": 76.32,
+     "end": 76.54
+    },
+    {
+     "word": "time.",
+     "start": 76.54,
+     "end": 76.88
+    },
+    {
+     "word": "So",
+     "start": 77.36,
+     "end": 77.66
+    },
+    {
+     "word": "these",
+     "start": 77.72,
+     "end": 77.88
+    },
+    {
+     "word": "results",
+     "start": 77.88,
+     "end": 78.2
+    },
+    {
+     "word": "reach",
+     "start": 78.2,
+     "end": 78.44
+    },
+    {
+     "word": "a",
+     "start": 78.44,
+     "end": 78.82
+    },
+    {
+     "word": "damping",
+     "start": 78.82,
+     "end": 78.82
+    },
+    {
+     "word": "of",
+     "start": 78.82,
+     "end": 79.06
+    },
+    {
+     "word": "about",
+     "start": 79.06,
+     "end": 79.38
+    },
+    {
+     "word": "lambda",
+     "start": 79.38,
+     "end": 79.7
+    },
+    {
+     "word": "to",
+     "start": 79.7,
+     "end": 80.06
+    },
+    {
+     "word": "the",
+     "start": 80.06,
+     "end": 80.24
+    },
+    {
+     "word": "two",
+     "start": 80.24,
+     "end": 80.5
+    },
+    {
+     "word": "plus",
+     "start": 80.5,
+     "end": 80.8
+    },
+    {
+     "word": "kappa.",
+     "start": 80.8,
+     "end": 81.18
+    }
+   ]
+  },
+  {
+   "id": "c3b8",
+   "status": "heuristic",
+   "hold": "short",
+   "paragraph": "1.4",
+   "start": 81.575,
+   "end": 89.99,
+   "holdEnd": 90.79,
+   "text": "But spectral type is a statement about all times. The damping must go to zero, at fixed disorder. That last limit is the obstacle.",
+   "words": [
+    {
+     "word": "But",
+     "start": 81.97,
+     "end": 82.24
+    },
+    {
+     "word": "spectral",
+     "start": 82.24,
+     "end": 82.6
+    },
+    {
+     "word": "type",
+     "start": 82.6,
+     "end": 82.92
+    },
+    {
+     "word": "is",
+     "start": 82.92,
+     "end": 83.14
+    },
+    {
+     "word": "a",
+     "start": 83.14,
+     "end": 83.6
+    },
+    {
+     "word": "statement",
+     "start": 83.6,
+     "end": 83.6
+    },
+    {
+     "word": "about",
+     "start": 83.6,
+     "end": 83.92
+    },
+    {
+     "word": "all",
+     "start": 83.92,
+     "end": 84.3
+    },
+    {
+     "word": "times.",
+     "start": 84.3,
+     "end": 84.72
+    },
+    {
+     "word": "The",
+     "start": 85.2,
+     "end": 85.56
+    },
+    {
+     "word": "damping",
+     "start": 85.56,
+     "end": 85.68
+    },
+    {
+     "word": "must",
+     "start": 85.68,
+     "end": 85.96
+    },
+    {
+     "word": "go",
+     "start": 85.96,
+     "end": 86.08
+    },
+    {
+     "word": "to",
+     "start": 86.08,
+     "end": 86.4
+    },
+    {
+     "word": "zero,",
+     "start": 86.4,
+     "end": 86.54
+    },
+    {
+     "word": "at",
+     "start": 86.54,
+     "end": 87.02
+    },
+    {
+     "word": "fixed",
+     "start": 87.02,
+     "end": 87.36
+    },
+    {
+     "word": "disorder.",
+     "start": 87.36,
+     "end": 87.74
+    },
+    {
+     "word": "That",
+     "start": 87.74,
+     "end": 88.48
+    },
+    {
+     "word": "last",
+     "start": 88.48,
+     "end": 88.88
+    },
+    {
+     "word": "limit",
+     "start": 88.88,
+     "end": 89.1
+    },
+    {
+     "word": "is",
+     "start": 89.1,
+     "end": 89.36
+    },
+    {
+     "word": "the",
+     "start": 89.36,
+     "end": 89.66
+    },
+    {
+     "word": "obstacle.",
+     "start": 89.66,
+     "end": 89.99
+    }
+   ]
+  }
+ ]
+}

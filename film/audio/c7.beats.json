@@ -1,0 +1,145 @@
+{
+ "chapter": "c7",
+ "voice": "marin",
+ "model": "gpt-4o-mini-tts",
+ "speed": null,
+ "audio": "c7.wav",
+ "duration": 23.81,
+ "inserted": [
+  {
+   "at": 0.0,
+   "seconds": 1.05,
+   "where": "chapter start",
+   "reason": [
+    "chapter title settles"
+   ]
+  },
+  {
+   "at": 12.28,
+   "seconds": 11.53,
+   "where": "after c7b1",
+   "reason": [
+    "tail+11.8: items held 1.0 s and leave in 0.8 s; the end card is shown for 10 s; the music swells and fades out under it"
+   ]
+  }
+ ],
+ "beats": [
+  {
+   "id": "c7b1",
+   "status": "context",
+   "hold": "short",
+   "paragraph": "1.1",
+   "start": 1.6,
+   "end": 12.01,
+   "holdEnd": 23.81,
+   "text": "Even granting the theorem, much remains open. The full mobility edge. Quantum diffusion. Two dimensions. Other random laws. And explicit constants.",
+   "words": [
+    {
+     "word": "Even",
+     "start": 1.6,
+     "end": 1.97
+    },
+    {
+     "word": "granting",
+     "start": 1.97,
+     "end": 2.43
+    },
+    {
+     "word": "the",
+     "start": 2.43,
+     "end": 3.03
+    },
+    {
+     "word": "theorem,",
+     "start": 3.03,
+     "end": 3.03
+    },
+    {
+     "word": "much",
+     "start": 3.73,
+     "end": 3.81
+    },
+    {
+     "word": "remains",
+     "start": 3.81,
+     "end": 4.19
+    },
+    {
+     "word": "open.",
+     "start": 4.19,
+     "end": 4.757
+    },
+    {
+     "word": "The",
+     "start": 4.757,
+     "end": 5.21
+    },
+    {
+     "word": "full",
+     "start": 5.21,
+     "end": 5.51
+    },
+    {
+     "word": "mobility",
+     "start": 5.51,
+     "end": 5.89
+    },
+    {
+     "word": "edge.",
+     "start": 5.89,
+     "end": 6.29
+    },
+    {
+     "word": "Quantum",
+     "start": 7.01,
+     "end": 7.01
+    },
+    {
+     "word": "diffusion.",
+     "start": 7.01,
+     "end": 7.45
+    },
+    {
+     "word": "Two",
+     "start": 8.11,
+     "end": 8.31
+    },
+    {
+     "word": "dimensions.",
+     "start": 8.31,
+     "end": 8.71
+    },
+    {
+     "word": "Other",
+     "start": 9.35,
+     "end": 9.59
+    },
+    {
+     "word": "random",
+     "start": 9.59,
+     "end": 9.87
+    },
+    {
+     "word": "laws.",
+     "start": 9.87,
+     "end": 10.27
+    },
+    {
+     "word": "And",
+     "start": 10.73,
+     "end": 11.05
+    },
+    {
+     "word": "explicit",
+     "start": 11.05,
+     "end": 11.37
+    },
+    {
+     "word": "constants.",
+     "start": 11.37,
+     "end": 12.01
+    }
+   ]
+  }
+ ]
+}

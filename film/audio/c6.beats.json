@@ -1,0 +1,1765 @@
+{
+ "chapter": "c6",
+ "voice": "marin",
+ "model": "gpt-4o-mini-tts",
+ "speed": null,
+ "audio": "c6.wav",
+ "duration": 129.975,
+ "inserted": [
+  {
+   "at": 0.0,
+   "seconds": 1.6,
+   "where": "chapter start",
+   "reason": [
+    "chapter title settles"
+   ]
+  },
+  {
+   "at": 30.915,
+   "seconds": 0.365,
+   "where": "after c6b3",
+   "reason": [
+    "files+3.0: Main.lean scrolls to the final theorem"
+   ]
+  },
+  {
+   "at": 129.365,
+   "seconds": 0.61,
+   "where": "after c6b12",
+   "reason": [
+    "tail+0.8: picture fades out"
+   ]
+  }
+ ],
+ "beats": [
+  {
+   "id": "c6b1",
+   "status": "lean",
+   "hold": "short",
+   "paragraph": "1.1",
+   "start": 1.6,
+   "end": 10.82,
+   "holdEnd": 11.215,
+   "text": "Here is the plan again. Every box is formalized in Lean, and every step is proved. A blue seal marks a proved box.",
+   "words": [
+    {
+     "word": "Here",
+     "start": 1.6,
+     "end": 1.82
+    },
+    {
+     "word": "is",
+     "start": 1.82,
+     "end": 2.04
+    },
+    {
+     "word": "the",
+     "start": 2.04,
+     "end": 2.2
+    },
+    {
+     "word": "plan",
+     "start": 2.2,
+     "end": 2.5
+    },
+    {
+     "word": "again.",
+     "start": 2.5,
+     "end": 2.94
+    },
+    {
+     "word": "Every",
+     "start": 4.02,
+     "end": 4.02
+    },
+    {
+     "word": "box",
+     "start": 4.02,
+     "end": 4.36
+    },
+    {
+     "word": "is",
+     "start": 4.36,
+     "end": 4.64
+    },
+    {
+     "word": "formalized",
+     "start": 4.64,
+     "end": 5.2
+    },
+    {
+     "word": "in",
+     "start": 5.2,
+     "end": 5.62
+    },
+    {
+     "word": "Lean,",
+     "start": 5.62,
+     "end": 5.62
+    },
+    {
+     "word": "and",
+     "start": 5.98,
+     "end": 6.34
+    },
+    {
+     "word": "every",
+     "start": 6.34,
+     "end": 6.8
+    },
+    {
+     "word": "step",
+     "start": 6.8,
+     "end": 7.04
+    },
+    {
+     "word": "is",
+     "start": 7.04,
+     "end": 7.7
+    },
+    {
+     "word": "proved.",
+     "start": 7.7,
+     "end": 7.7
+    },
+    {
+     "word": "A",
+     "start": 8.46,
+     "end": 8.62
+    },
+    {
+     "word": "blue",
+     "start": 8.62,
+     "end": 8.92
+    },
+    {
+     "word": "seal",
+     "start": 8.92,
+     "end": 9.24
+    },
+    {
+     "word": "marks",
+     "start": 9.24,
+     "end": 9.66
+    },
+    {
+     "word": "a",
+     "start": 9.66,
+     "end": 9.92
+    },
+    {
+     "word": "proved",
+     "start": 9.92,
+     "end": 10.32
+    },
+    {
+     "word": "box.",
+     "start": 10.32,
+     "end": 10.82
+    }
+   ]
+  },
+  {
+   "id": "c6b2",
+   "status": "lean",
+   "hold": "short",
+   "paragraph": "1.1",
+   "start": 11.215,
+   "end": 24.83,
+   "holdEnd": 25.24,
+   "text": "Two boxes follow Theorem one point one. The first restates it in Simon's conventions. The second is Simon's problem, stated with Mathlib alone, the standard library of formal mathematics.",
+   "words": [
+    {
+     "word": "Two",
+     "start": 11.61,
+     "end": 11.86
+    },
+    {
+     "word": "boxes",
+     "start": 11.86,
+     "end": 12.28
+    },
+    {
+     "word": "follow",
+     "start": 12.28,
+     "end": 12.76
+    },
+    {
+     "word": "Theorem",
+     "start": 12.76,
+     "end": 13.2
+    },
+    {
+     "word": "one",
+     "start": 13.2,
+     "end": 13.503
+    },
+    {
+     "word": "point",
+     "start": 13.503,
+     "end": 13.957
+    },
+    {
+     "word": "one.",
+     "start": 13.957,
+     "end": 14.26
+    },
+    {
+     "word": "The",
+     "start": 15.0,
+     "end": 15.16
+    },
+    {
+     "word": "first",
+     "start": 15.16,
+     "end": 15.52
+    },
+    {
+     "word": "restates",
+     "start": 15.52,
+     "end": 16.18
+    },
+    {
+     "word": "it",
+     "start": 16.18,
+     "end": 16.38
+    },
+    {
+     "word": "in",
+     "start": 16.38,
+     "end": 16.64
+    },
+    {
+     "word": "Simon's",
+     "start": 16.64,
+     "end": 17.04
+    },
+    {
+     "word": "conventions.",
+     "start": 17.04,
+     "end": 17.46
+    },
+    {
+     "word": "The",
+     "start": 18.26,
+     "end": 18.46
+    },
+    {
+     "word": "second",
+     "start": 18.46,
+     "end": 18.76
+    },
+    {
+     "word": "is",
+     "start": 18.76,
+     "end": 19.28
+    },
+    {
+     "word": "Simon's",
+     "start": 19.28,
+     "end": 20.2
+    },
+    {
+     "word": "problem,",
+     "start": 20.2,
+     "end": 20.2
+    },
+    {
+     "word": "stated",
+     "start": 20.74,
+     "end": 20.78
+    },
+    {
+     "word": "with",
+     "start": 20.78,
+     "end": 21.12
+    },
+    {
+     "word": "Mathlib",
+     "start": 21.12,
+     "end": 21.52
+    },
+    {
+     "word": "alone,",
+     "start": 21.52,
+     "end": 22.0
+    },
+    {
+     "word": "the",
+     "start": 22.44,
+     "end": 22.68
+    },
+    {
+     "word": "standard",
+     "start": 22.68,
+     "end": 23.06
+    },
+    {
+     "word": "library",
+     "start": 23.06,
+     "end": 23.5
+    },
+    {
+     "word": "of",
+     "start": 23.5,
+     "end": 23.92
+    },
+    {
+     "word": "formal",
+     "start": 23.92,
+     "end": 24.12
+    },
+    {
+     "word": "mathematics.",
+     "start": 24.12,
+     "end": 24.83
+    }
+   ]
+  },
+  {
+   "id": "c6b3",
+   "status": "lean",
+   "hold": "short",
+   "paragraph": "1.1",
+   "start": 25.24,
+   "end": 30.45,
+   "holdEnd": 31.28,
+   "text": "In all, the proof has eight hundred and fifty-three files, with no unfinished steps.",
+   "words": [
+    {
+     "word": "In",
+     "start": 25.65,
+     "end": 25.84
+    },
+    {
+     "word": "all,",
+     "start": 25.84,
+     "end": 26.16
+    },
+    {
+     "word": "the",
+     "start": 26.42,
+     "end": 26.78
+    },
+    {
+     "word": "proof",
+     "start": 26.78,
+     "end": 26.8
+    },
+    {
+     "word": "has",
+     "start": 26.8,
+     "end": 27.08
+    },
+    {
+     "word": "eight",
+     "start": 27.08,
+     "end": 27.328
+    },
+    {
+     "word": "hundred",
+     "start": 27.328,
+     "end": 27.659
+    },
+    {
+     "word": "and",
+     "start": 27.659,
+     "end": 27.825
+    },
+    {
+     "word": "fifty-three",
+     "start": 27.825,
+     "end": 28.28
+    },
+    {
+     "word": "files,",
+     "start": 28.28,
+     "end": 28.62
+    },
+    {
+     "word": "with",
+     "start": 29.0,
+     "end": 29.14
+    },
+    {
+     "word": "no",
+     "start": 29.14,
+     "end": 29.5
+    },
+    {
+     "word": "unfinished",
+     "start": 29.5,
+     "end": 29.96
+    },
+    {
+     "word": "steps.",
+     "start": 29.96,
+     "end": 30.45
+    }
+   ]
+  },
+  {
+   "id": "c6b4",
+   "status": "lean",
+   "hold": "short",
+   "paragraph": "1.2",
+   "start": 31.28,
+   "end": 38.975,
+   "holdEnd": 39.315,
+   "text": "Now the final statement, clause by clause. In every dimension d of at least three, there is a width bound, delta.",
+   "words": [
+    {
+     "word": "Now",
+     "start": 31.745,
+     "end": 31.905
+    },
+    {
+     "word": "the",
+     "start": 31.905,
+     "end": 32.105
+    },
+    {
+     "word": "final",
+     "start": 32.105,
+     "end": 32.445
+    },
+    {
+     "word": "statement,",
+     "start": 32.445,
+     "end": 32.765
+    },
+    {
+     "word": "clause",
+     "start": 33.585,
+     "end": 33.585
+    },
+    {
+     "word": "by",
+     "start": 33.585,
+     "end": 33.845
+    },
+    {
+     "word": "clause.",
+     "start": 33.845,
+     "end": 34.185
+    },
+    {
+     "word": "In",
+     "start": 34.945,
+     "end": 34.965
+    },
+    {
+     "word": "every",
+     "start": 34.965,
+     "end": 35.385
+    },
+    {
+     "word": "dimension",
+     "start": 35.385,
+     "end": 35.725
+    },
+    {
+     "word": "d",
+     "start": 35.725,
+     "end": 36.005
+    },
+    {
+     "word": "of",
+     "start": 36.005,
+     "end": 36.185
+    },
+    {
+     "word": "at",
+     "start": 36.185,
+     "end": 36.565
+    },
+    {
+     "word": "least",
+     "start": 36.565,
+     "end": 36.565
+    },
+    {
+     "word": "three,",
+     "start": 36.565,
+     "end": 36.825
+    },
+    {
+     "word": "there",
+     "start": 37.345,
+     "end": 37.425
+    },
+    {
+     "word": "is",
+     "start": 37.425,
+     "end": 37.545
+    },
+    {
+     "word": "a",
+     "start": 37.545,
+     "end": 37.725
+    },
+    {
+     "word": "width",
+     "start": 37.725,
+     "end": 37.985
+    },
+    {
+     "word": "bound,",
+     "start": 37.985,
+     "end": 38.305
+    },
+    {
+     "word": "delta.",
+     "start": 38.305,
+     "end": 38.975
+    }
+   ]
+  },
+  {
+   "id": "c6b5",
+   "status": "lean",
+   "hold": "short",
+   "paragraph": "1.2",
+   "start": 39.315,
+   "end": 46.302,
+   "holdEnd": 46.922,
+   "text": "For every interval from a to b narrower than delta, there is an open energy interval, from E one to E two.",
+   "words": [
+    {
+     "word": "For",
+     "start": 39.655,
+     "end": 39.845
+    },
+    {
+     "word": "every",
+     "start": 39.845,
+     "end": 40.245
+    },
+    {
+     "word": "interval",
+     "start": 40.245,
+     "end": 40.525
+    },
+    {
+     "word": "from",
+     "start": 40.525,
+     "end": 41.005
+    },
+    {
+     "word": "a",
+     "start": 41.005,
+     "end": 41.085
+    },
+    {
+     "word": "to",
+     "start": 41.085,
+     "end": 41.265
+    },
+    {
+     "word": "b",
+     "start": 41.265,
+     "end": 41.525
+    },
+    {
+     "word": "narrower",
+     "start": 41.525,
+     "end": 41.985
+    },
+    {
+     "word": "than",
+     "start": 41.985,
+     "end": 42.265
+    },
+    {
+     "word": "delta,",
+     "start": 42.265,
+     "end": 42.525
+    },
+    {
+     "word": "there",
+     "start": 43.125,
+     "end": 43.205
+    },
+    {
+     "word": "is",
+     "start": 43.205,
+     "end": 43.345
+    },
+    {
+     "word": "an",
+     "start": 43.345,
+     "end": 43.625
+    },
+    {
+     "word": "open",
+     "start": 43.625,
+     "end": 43.845
+    },
+    {
+     "word": "energy",
+     "start": 43.845,
+     "end": 44.205
+    },
+    {
+     "word": "interval,",
+     "start": 44.205,
+     "end": 44.505
+    },
+    {
+     "word": "from",
+     "start": 44.905,
+     "end": 45.125
+    },
+    {
+     "word": "E",
+     "start": 45.125,
+     "end": 45.258
+    },
+    {
+     "word": "one",
+     "start": 45.258,
+     "end": 45.525
+    },
+    {
+     "word": "to",
+     "start": 45.525,
+     "end": 45.845
+    },
+    {
+     "word": "E",
+     "start": 45.845,
+     "end": 45.992
+    },
+    {
+     "word": "two.",
+     "start": 45.992,
+     "end": 46.302
+    }
+   ]
+  },
+  {
+   "id": "c6b6",
+   "status": "lean",
+   "hold": "short",
+   "paragraph": "1.2",
+   "start": 46.922,
+   "end": 54.705,
+   "holdEnd": 54.865,
+   "text": "Take any independent family of energies, uniform on a to b. Then, almost surely, the operator exists,",
+   "words": [
+    {
+     "word": "Take",
+     "start": 47.542,
+     "end": 47.745
+    },
+    {
+     "word": "any",
+     "start": 47.745,
+     "end": 48.165
+    },
+    {
+     "word": "independent",
+     "start": 48.165,
+     "end": 48.665
+    },
+    {
+     "word": "family",
+     "start": 48.665,
+     "end": 48.965
+    },
+    {
+     "word": "of",
+     "start": 48.965,
+     "end": 49.625
+    },
+    {
+     "word": "energies,",
+     "start": 49.625,
+     "end": 49.625
+    },
+    {
+     "word": "uniform",
+     "start": 50.005,
+     "end": 50.265
+    },
+    {
+     "word": "on",
+     "start": 50.265,
+     "end": 50.605
+    },
+    {
+     "word": "a",
+     "start": 50.605,
+     "end": 50.845
+    },
+    {
+     "word": "to",
+     "start": 50.845,
+     "end": 50.985
+    },
+    {
+     "word": "b.",
+     "start": 50.985,
+     "end": 51.265
+    },
+    {
+     "word": "Then,",
+     "start": 51.865,
+     "end": 52.205
+    },
+    {
+     "word": "almost",
+     "start": 52.205,
+     "end": 52.625
+    },
+    {
+     "word": "surely,",
+     "start": 52.625,
+     "end": 52.965
+    },
+    {
+     "word": "the",
+     "start": 53.365,
+     "end": 53.585
+    },
+    {
+     "word": "operator",
+     "start": 53.585,
+     "end": 53.985
+    },
+    {
+     "word": "exists,",
+     "start": 53.985,
+     "end": 54.705
+    }
+   ]
+  },
+  {
+   "id": "c6b7",
+   "status": "lean",
+   "hold": "short",
+   "paragraph": "1.2",
+   "start": 54.865,
+   "end": 63.015,
+   "holdEnd": 63.165,
+   "text": "the energy interval lies in its spectrum, every spectral measure is absolutely continuous there, and some wave has nonzero weight there.",
+   "words": [
+    {
+     "word": "the",
+     "start": 55.025,
+     "end": 55.205
+    },
+    {
+     "word": "energy",
+     "start": 55.205,
+     "end": 55.545
+    },
+    {
+     "word": "interval",
+     "start": 55.545,
+     "end": 55.865
+    },
+    {
+     "word": "lies",
+     "start": 55.865,
+     "end": 56.225
+    },
+    {
+     "word": "in",
+     "start": 56.225,
+     "end": 56.385
+    },
+    {
+     "word": "its",
+     "start": 56.385,
+     "end": 56.645
+    },
+    {
+     "word": "spectrum,",
+     "start": 56.645,
+     "end": 56.945
+    },
+    {
+     "word": "every",
+     "start": 57.565,
+     "end": 57.945
+    },
+    {
+     "word": "spectral",
+     "start": 57.945,
+     "end": 58.305
+    },
+    {
+     "word": "measure",
+     "start": 58.305,
+     "end": 58.545
+    },
+    {
+     "word": "is",
+     "start": 58.545,
+     "end": 58.905
+    },
+    {
+     "word": "absolutely",
+     "start": 58.905,
+     "end": 59.445
+    },
+    {
+     "word": "continuous",
+     "start": 59.445,
+     "end": 59.885
+    },
+    {
+     "word": "there,",
+     "start": 59.885,
+     "end": 60.285
+    },
+    {
+     "word": "and",
+     "start": 60.345,
+     "end": 60.985
+    },
+    {
+     "word": "some",
+     "start": 60.985,
+     "end": 61.285
+    },
+    {
+     "word": "wave",
+     "start": 61.285,
+     "end": 61.545
+    },
+    {
+     "word": "has",
+     "start": 61.545,
+     "end": 61.985
+    },
+    {
+     "word": "nonzero",
+     "start": 61.985,
+     "end": 62.445
+    },
+    {
+     "word": "weight",
+     "start": 62.445,
+     "end": 62.765
+    },
+    {
+     "word": "there.",
+     "start": 62.765,
+     "end": 63.015
+    }
+   ]
+  },
+  {
+   "id": "c6b8",
+   "status": "lean",
+   "hold": "short",
+   "paragraph": "2.1",
+   "start": 63.165,
+   "end": 78.725,
+   "holdEnd": 79.175,
+   "text": "The final theorem uses only Lean's three standard axioms. Lean's replay tool checked every step again, from scratch. And nanoda, an independently written checker, confirmed that the proved statement matches an independent copy.",
+   "words": [
+    {
+     "word": "The",
+     "start": 63.935,
+     "end": 64.025
+    },
+    {
+     "word": "final",
+     "start": 64.025,
+     "end": 64.525
+    },
+    {
+     "word": "theorem",
+     "start": 64.525,
+     "end": 64.925
+    },
+    {
+     "word": "uses",
+     "start": 64.925,
+     "end": 65.585
+    },
+    {
+     "word": "only",
+     "start": 65.585,
+     "end": 66.205
+    },
+    {
+     "word": "Lean's",
+     "start": 66.205,
+     "end": 66.305
+    },
+    {
+     "word": "three",
+     "start": 66.305,
+     "end": 66.785
+    },
+    {
+     "word": "standard",
+     "start": 66.785,
+     "end": 67.125
+    },
+    {
+     "word": "axioms.",
+     "start": 67.125,
+     "end": 67.665
+    },
+    {
+     "word": "Lean's",
+     "start": 69.005,
+     "end": 69.205
+    },
+    {
+     "word": "replay",
+     "start": 69.205,
+     "end": 69.565
+    },
+    {
+     "word": "tool",
+     "start": 69.565,
+     "end": 69.925
+    },
+    {
+     "word": "checked",
+     "start": 69.925,
+     "end": 70.245
+    },
+    {
+     "word": "every",
+     "start": 70.245,
+     "end": 70.725
+    },
+    {
+     "word": "step",
+     "start": 70.725,
+     "end": 70.905
+    },
+    {
+     "word": "again,",
+     "start": 70.905,
+     "end": 71.285
+    },
+    {
+     "word": "from",
+     "start": 71.645,
+     "end": 71.825
+    },
+    {
+     "word": "scratch.",
+     "start": 71.825,
+     "end": 72.225
+    },
+    {
+     "word": "And",
+     "start": 72.985,
+     "end": 73.265
+    },
+    {
+     "word": "nanoda,",
+     "start": 73.265,
+     "end": 73.545
+    },
+    {
+     "word": "an",
+     "start": 73.805,
+     "end": 74.065
+    },
+    {
+     "word": "independently",
+     "start": 74.065,
+     "end": 74.525
+    },
+    {
+     "word": "written",
+     "start": 74.525,
+     "end": 74.845
+    },
+    {
+     "word": "checker,",
+     "start": 74.845,
+     "end": 75.365
+    },
+    {
+     "word": "confirmed",
+     "start": 75.985,
+     "end": 75.985
+    },
+    {
+     "word": "that",
+     "start": 75.985,
+     "end": 76.245
+    },
+    {
+     "word": "the",
+     "start": 76.245,
+     "end": 76.465
+    },
+    {
+     "word": "proved",
+     "start": 76.465,
+     "end": 76.705
+    },
+    {
+     "word": "statement",
+     "start": 76.705,
+     "end": 77.145
+    },
+    {
+     "word": "matches",
+     "start": 77.145,
+     "end": 77.525
+    },
+    {
+     "word": "an",
+     "start": 77.525,
+     "end": 77.885
+    },
+    {
+     "word": "independent",
+     "start": 77.885,
+     "end": 78.265
+    },
+    {
+     "word": "copy.",
+     "start": 78.265,
+     "end": 78.725
+    }
+   ]
+  },
+  {
+   "id": "c6b9",
+   "status": "lean",
+   "hold": "short",
+   "paragraph": "2.1",
+   "start": 79.175,
+   "end": 87.605,
+   "holdEnd": 88.04,
+   "text": "In a control, two replaces three. Then the statement no longer matches the one proved. The proof covers three dimensions and up.",
+   "words": [
+    {
+     "word": "In",
+     "start": 79.625,
+     "end": 79.745
+    },
+    {
+     "word": "a",
+     "start": 79.745,
+     "end": 79.985
+    },
+    {
+     "word": "control,",
+     "start": 79.985,
+     "end": 80.365
+    },
+    {
+     "word": "two",
+     "start": 80.825,
+     "end": 81.065
+    },
+    {
+     "word": "replaces",
+     "start": 81.065,
+     "end": 81.465
+    },
+    {
+     "word": "three.",
+     "start": 81.465,
+     "end": 81.885
+    },
+    {
+     "word": "Then",
+     "start": 82.425,
+     "end": 82.625
+    },
+    {
+     "word": "the",
+     "start": 82.625,
+     "end": 82.965
+    },
+    {
+     "word": "statement",
+     "start": 82.965,
+     "end": 83.085
+    },
+    {
+     "word": "no",
+     "start": 83.085,
+     "end": 83.425
+    },
+    {
+     "word": "longer",
+     "start": 83.425,
+     "end": 83.705
+    },
+    {
+     "word": "matches",
+     "start": 83.705,
+     "end": 83.965
+    },
+    {
+     "word": "the",
+     "start": 83.965,
+     "end": 84.205
+    },
+    {
+     "word": "one",
+     "start": 84.205,
+     "end": 84.405
+    },
+    {
+     "word": "proved.",
+     "start": 84.405,
+     "end": 84.685
+    },
+    {
+     "word": "The",
+     "start": 85.665,
+     "end": 85.885
+    },
+    {
+     "word": "proof",
+     "start": 85.885,
+     "end": 86.105
+    },
+    {
+     "word": "covers",
+     "start": 86.105,
+     "end": 86.465
+    },
+    {
+     "word": "three",
+     "start": 86.465,
+     "end": 86.825
+    },
+    {
+     "word": "dimensions",
+     "start": 86.825,
+     "end": 87.145
+    },
+    {
+     "word": "and",
+     "start": 87.145,
+     "end": 87.505
+    },
+    {
+     "word": "up.",
+     "start": 87.505,
+     "end": 87.605
+    }
+   ]
+  },
+  {
+   "id": "c6b10",
+   "status": "lean",
+   "hold": "short",
+   "paragraph": "2.1",
+   "start": 88.04,
+   "end": 99.415,
+   "holdEnd": 99.855,
+   "text": "Formalizing every step found one literal omission in the manuscript. Its Lemma six point two needs the damping scale to be at most one. That holds wherever the lemma is used.",
+   "words": [
+    {
+     "word": "Formalizing",
+     "start": 88.475,
+     "end": 89.065
+    },
+    {
+     "word": "every",
+     "start": 89.065,
+     "end": 89.505
+    },
+    {
+     "word": "step",
+     "start": 89.505,
+     "end": 89.745
+    },
+    {
+     "word": "found",
+     "start": 89.745,
+     "end": 90.025
+    },
+    {
+     "word": "one",
+     "start": 90.025,
+     "end": 90.445
+    },
+    {
+     "word": "literal",
+     "start": 91.065,
+     "end": 91.065
+    },
+    {
+     "word": "omission",
+     "start": 91.065,
+     "end": 91.405
+    },
+    {
+     "word": "in",
+     "start": 91.405,
+     "end": 91.605
+    },
+    {
+     "word": "the",
+     "start": 91.605,
+     "end": 91.765
+    },
+    {
+     "word": "manuscript.",
+     "start": 91.765,
+     "end": 92.045
+    },
+    {
+     "word": "Its",
+     "start": 92.045,
+     "end": 92.945
+    },
+    {
+     "word": "Lemma",
+     "start": 92.945,
+     "end": 93.225
+    },
+    {
+     "word": "six",
+     "start": 93.225,
+     "end": 93.488
+    },
+    {
+     "word": "point",
+     "start": 93.488,
+     "end": 93.882
+    },
+    {
+     "word": "two",
+     "start": 93.882,
+     "end": 94.145
+    },
+    {
+     "word": "needs",
+     "start": 94.145,
+     "end": 94.665
+    },
+    {
+     "word": "the",
+     "start": 94.665,
+     "end": 94.905
+    },
+    {
+     "word": "damping",
+     "start": 94.905,
+     "end": 95.225
+    },
+    {
+     "word": "scale",
+     "start": 95.225,
+     "end": 95.565
+    },
+    {
+     "word": "to",
+     "start": 95.565,
+     "end": 95.725
+    },
+    {
+     "word": "be",
+     "start": 95.725,
+     "end": 95.825
+    },
+    {
+     "word": "at",
+     "start": 95.825,
+     "end": 96.025
+    },
+    {
+     "word": "most",
+     "start": 96.025,
+     "end": 96.225
+    },
+    {
+     "word": "one.",
+     "start": 96.225,
+     "end": 96.545
+    },
+    {
+     "word": "That",
+     "start": 97.625,
+     "end": 97.725
+    },
+    {
+     "word": "holds",
+     "start": 97.725,
+     "end": 98.005
+    },
+    {
+     "word": "wherever",
+     "start": 98.005,
+     "end": 98.405
+    },
+    {
+     "word": "the",
+     "start": 98.405,
+     "end": 98.785
+    },
+    {
+     "word": "lemma",
+     "start": 98.785,
+     "end": 98.825
+    },
+    {
+     "word": "is",
+     "start": 98.825,
+     "end": 99.085
+    },
+    {
+     "word": "used.",
+     "start": 99.085,
+     "end": 99.415
+    }
+   ]
+  },
+  {
+   "id": "c6b11",
+   "status": "context",
+   "hold": "short",
+   "paragraph": "2.2",
+   "start": 99.855,
+   "end": 111.005,
+   "holdEnd": 111.475,
+   "text": "What does the check not certify? That these definitions say what we claim; you can judge that by reading them. The correctness of the library's own definitions. And every sentence of the manuscript.",
+   "words": [
+    {
+     "word": "What",
+     "start": 100.295,
+     "end": 100.465
+    },
+    {
+     "word": "does",
+     "start": 100.465,
+     "end": 100.605
+    },
+    {
+     "word": "the",
+     "start": 100.605,
+     "end": 100.905
+    },
+    {
+     "word": "check",
+     "start": 100.905,
+     "end": 100.925
+    },
+    {
+     "word": "not",
+     "start": 100.925,
+     "end": 101.225
+    },
+    {
+     "word": "certify?",
+     "start": 101.225,
+     "end": 101.585
+    },
+    {
+     "word": "That",
+     "start": 102.025,
+     "end": 102.425
+    },
+    {
+     "word": "these",
+     "start": 102.425,
+     "end": 102.705
+    },
+    {
+     "word": "definitions",
+     "start": 102.705,
+     "end": 103.125
+    },
+    {
+     "word": "say",
+     "start": 103.125,
+     "end": 103.465
+    },
+    {
+     "word": "what",
+     "start": 103.465,
+     "end": 103.565
+    },
+    {
+     "word": "we",
+     "start": 103.565,
+     "end": 103.765
+    },
+    {
+     "word": "claim;",
+     "start": 103.765,
+     "end": 103.965
+    },
+    {
+     "word": "you",
+     "start": 104.585,
+     "end": 104.705
+    },
+    {
+     "word": "can",
+     "start": 104.705,
+     "end": 105.045
+    },
+    {
+     "word": "judge",
+     "start": 105.045,
+     "end": 105.085
+    },
+    {
+     "word": "that",
+     "start": 105.085,
+     "end": 105.345
+    },
+    {
+     "word": "by",
+     "start": 105.345,
+     "end": 105.545
+    },
+    {
+     "word": "reading",
+     "start": 105.545,
+     "end": 105.725
+    },
+    {
+     "word": "them.",
+     "start": 105.725,
+     "end": 106.085
+    },
+    {
+     "word": "The",
+     "start": 106.685,
+     "end": 106.785
+    },
+    {
+     "word": "correctness",
+     "start": 106.785,
+     "end": 107.225
+    },
+    {
+     "word": "of",
+     "start": 107.225,
+     "end": 107.345
+    },
+    {
+     "word": "the",
+     "start": 107.345,
+     "end": 107.505
+    },
+    {
+     "word": "library's",
+     "start": 107.505,
+     "end": 107.985
+    },
+    {
+     "word": "own",
+     "start": 107.985,
+     "end": 108.225
+    },
+    {
+     "word": "definitions.",
+     "start": 108.225,
+     "end": 108.585
+    },
+    {
+     "word": "And",
+     "start": 109.425,
+     "end": 109.545
+    },
+    {
+     "word": "every",
+     "start": 109.545,
+     "end": 109.905
+    },
+    {
+     "word": "sentence",
+     "start": 109.905,
+     "end": 110.185
+    },
+    {
+     "word": "of",
+     "start": 110.185,
+     "end": 110.345
+    },
+    {
+     "word": "the",
+     "start": 110.345,
+     "end": 110.525
+    },
+    {
+     "word": "manuscript.",
+     "start": 110.525,
+     "end": 111.005
+    }
+   ]
+  },
+  {
+   "id": "c6b12",
+   "status": "context",
+   "hold": "short",
+   "paragraph": "2.2",
+   "start": 111.475,
+   "end": 129.175,
+   "holdEnd": 129.975,
+   "text": "One more caution. The exported statement lets the energy interval depend on the width, b minus a. Theorem one point one fixes the interval, just above the bottom of the band. That fixed form is proved too, but it is stated in the terms of OpenAI's Lean library, not Mathlib alone.",
+   "words": [
+    {
+     "word": "One",
+     "start": 111.945,
+     "end": 112.165
+    },
+    {
+     "word": "more",
+     "start": 112.165,
+     "end": 112.445
+    },
+    {
+     "word": "caution.",
+     "start": 112.445,
+     "end": 112.765
+    },
+    {
+     "word": "The",
+     "start": 113.585,
+     "end": 113.665
+    },
+    {
+     "word": "exported",
+     "start": 113.665,
+     "end": 114.145
+    },
+    {
+     "word": "statement",
+     "start": 114.145,
+     "end": 114.545
+    },
+    {
+     "word": "lets",
+     "start": 114.545,
+     "end": 114.785
+    },
+    {
+     "word": "the",
+     "start": 114.785,
+     "end": 115.065
+    },
+    {
+     "word": "energy",
+     "start": 115.065,
+     "end": 115.405
+    },
+    {
+     "word": "interval",
+     "start": 115.405,
+     "end": 115.725
+    },
+    {
+     "word": "depend",
+     "start": 115.725,
+     "end": 116.185
+    },
+    {
+     "word": "on",
+     "start": 116.185,
+     "end": 116.365
+    },
+    {
+     "word": "the",
+     "start": 116.365,
+     "end": 116.505
+    },
+    {
+     "word": "width,",
+     "start": 116.505,
+     "end": 116.745
+    },
+    {
+     "word": "b",
+     "start": 117.105,
+     "end": 117.305
+    },
+    {
+     "word": "minus",
+     "start": 117.305,
+     "end": 117.545
+    },
+    {
+     "word": "a.",
+     "start": 117.545,
+     "end": 117.825
+    },
+    {
+     "word": "Theorem",
+     "start": 118.445,
+     "end": 118.925
+    },
+    {
+     "word": "one",
+     "start": 118.925,
+     "end": 119.125
+    },
+    {
+     "word": "point",
+     "start": 119.125,
+     "end": 119.425
+    },
+    {
+     "word": "one",
+     "start": 119.425,
+     "end": 119.625
+    },
+    {
+     "word": "fixes",
+     "start": 119.625,
+     "end": 119.965
+    },
+    {
+     "word": "the",
+     "start": 119.965,
+     "end": 120.305
+    },
+    {
+     "word": "interval,",
+     "start": 120.305,
+     "end": 120.465
+    },
+    {
+     "word": "just",
+     "start": 121.005,
+     "end": 121.285
+    },
+    {
+     "word": "above",
+     "start": 121.285,
+     "end": 121.465
+    },
+    {
+     "word": "the",
+     "start": 121.465,
+     "end": 121.725
+    },
+    {
+     "word": "bottom",
+     "start": 121.725,
+     "end": 121.825
+    },
+    {
+     "word": "of",
+     "start": 121.825,
+     "end": 121.985
+    },
+    {
+     "word": "the",
+     "start": 121.985,
+     "end": 122.325
+    },
+    {
+     "word": "band.",
+     "start": 122.325,
+     "end": 122.385
+    },
+    {
+     "word": "That",
+     "start": 123.345,
+     "end": 123.465
+    },
+    {
+     "word": "fixed",
+     "start": 123.465,
+     "end": 123.765
+    },
+    {
+     "word": "form",
+     "start": 123.765,
+     "end": 123.965
+    },
+    {
+     "word": "is",
+     "start": 123.965,
+     "end": 124.185
+    },
+    {
+     "word": "proved",
+     "start": 124.185,
+     "end": 124.405
+    },
+    {
+     "word": "too,",
+     "start": 124.405,
+     "end": 124.745
+    },
+    {
+     "word": "but",
+     "start": 125.185,
+     "end": 125.285
+    },
+    {
+     "word": "it",
+     "start": 125.285,
+     "end": 125.405
+    },
+    {
+     "word": "is",
+     "start": 125.405,
+     "end": 125.805
+    },
+    {
+     "word": "stated",
+     "start": 125.805,
+     "end": 125.805
+    },
+    {
+     "word": "in",
+     "start": 125.805,
+     "end": 125.965
+    },
+    {
+     "word": "the",
+     "start": 125.965,
+     "end": 126.145
+    },
+    {
+     "word": "terms",
+     "start": 126.145,
+     "end": 126.345
+    },
+    {
+     "word": "of",
+     "start": 126.345,
+     "end": 126.505
+    },
+    {
+     "word": "OpenAI's",
+     "start": 126.505,
+     "end": 127.265
+    },
+    {
+     "word": "Lean",
+     "start": 127.265,
+     "end": 127.385
+    },
+    {
+     "word": "library,",
+     "start": 127.385,
+     "end": 127.785
+    },
+    {
+     "word": "not",
+     "start": 128.205,
+     "end": 128.405
+    },
+    {
+     "word": "Mathlib",
+     "start": 128.405,
+     "end": 128.765
+    },
+    {
+     "word": "alone.",
+     "start": 128.765,
+     "end": 129.175
+    }
+   ]
+  }
+ ]
+}

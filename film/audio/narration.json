@@ -1,0 +1,42 @@
+{
+ "sample_rate": 24000,
+ "channels": 1,
+ "bits": 16,
+ "chapters": [
+  {
+   "chapter": "c1",
+   "samples": 689520,
+   "sha256": "477a9472996ed99565441b1254122f0356471335b2aac721ba51a408d830865e"
+  },
+  {
+   "chapter": "c2",
+   "samples": 1729920,
+   "sha256": "57a21cc7e85be32aa07ee58bd5921a7f11931e4d73e13c1a7c3fdb6b25924ed2"
+  },
+  {
+   "chapter": "c3",
+   "samples": 2178960,
+   "sha256": "202d06154390ff3b184640e656d7b9f86e545dbdcc4d0e8ad566b9d1ea3bc16c"
+  },
+  {
+   "chapter": "c4",
+   "samples": 3721104,
+   "sha256": "6f42039e355a4707fedfcb95274e6341dfd864bea1d2bd03d0b6532cf9871d5f"
+  },
+  {
+   "chapter": "c5",
+   "samples": 1272000,
+   "sha256": "1bde8ee44b068bee738639a7fcbd9fe1a3449dddc0631e311547bee570263d74"
+  },
+  {
+   "chapter": "c6",
+   "samples": 3119400,
+   "sha256": "f3fbf47753c6aec48cff73343fde2287c0f37b52cbe81d71615f4bbc46c187f3"
+  },
+  {
+   "chapter": "c7",
+   "samples": 571440,
+   "sha256": "2057f530faed94902cf4fa48c8bb4bfbce76a9995a433f4316d11055098afbeb"
+  }
+ ]
+}

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1580" height="560" viewBox="0 0 1580 560">
+<rect width="1580" height="560" fill="#F7F4EC"/>
+<rect x="60" y="90" width="250" height="92" rx="8" fill="#FBF8F1" stroke="#B7791F" stroke-width="3"/>
+<text x="185.0" y="132.0" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="23" font-weight="600" fill="#1C1B19" text-anchor="middle">Initialization</text>
+<text x="185.0" y="160.0" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="19" font-weight="400" fill="#5E5B55" text-anchor="middle">free resolvent, §3</text>
+<rect x="290" y="98" width="12" height="12" fill="#2B5C9E"/>
+<rect x="362" y="90" width="250" height="92" rx="8" fill="#FBF8F1" stroke="#B7791F" stroke-width="3"/>
+<text x="487.0" y="132.0" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="23" font-weight="600" fill="#1C1B19" text-anchor="middle">Ordinary sweeps</text>
+<text x="487.0" y="160.0" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="19" font-weight="400" fill="#5E5B55" text-anchor="middle">digits revealed, §§4–5</text>
+<rect x="592" y="98" width="12" height="12" fill="#2B5C9E"/>
+<line x1="310" y1="136.0" x2="358" y2="136.0" stroke="#1C1B19" stroke-width="2"/><polygon points="358,136.0 346.9,140.7 346.9,131.3" fill="#1C1B19"/>
+<rect x="664" y="90" width="250" height="92" rx="8" fill="#FBF8F1" stroke="#B7791F" stroke-width="3"/>
+<text x="789.0" y="132.0" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="23" font-weight="600" fill="#1C1B19" text-anchor="middle">Clearing</text>
+<text x="789.0" y="160.0" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="19" font-weight="400" fill="#5E5B55" text-anchor="middle">pending components, §6</text>
+<rect x="894" y="98" width="12" height="12" fill="#2B5C9E"/>
+<line x1="612" y1="136.0" x2="660" y2="136.0" stroke="#1C1B19" stroke-width="2"/><polygon points="660,136.0 648.9,140.7 648.9,131.3" fill="#1C1B19"/>
+<rect x="966" y="90" width="250" height="92" rx="8" fill="#FBF8F1" stroke="#B7791F" stroke-width="3"/>
+<text x="1091.0" y="132.0" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="23" font-weight="600" fill="#1C1B19" text-anchor="middle">Assembly, reset</text>
+<text x="1091.0" y="160.0" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="19" font-weight="400" fill="#5E5B55" text-anchor="middle">stage bounds, §7</text>
+<rect x="1196" y="98" width="12" height="12" fill="#2B5C9E"/>
+<line x1="914" y1="136.0" x2="962" y2="136.0" stroke="#1C1B19" stroke-width="2"/><polygon points="962,136.0 950.9,140.7 950.9,131.3" fill="#1C1B19"/>
+<rect x="1268" y="90" width="250" height="92" rx="8" fill="#FBF8F1" stroke="#B7791F" stroke-width="3"/>
+<text x="1393.0" y="132.0" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="23" font-weight="600" fill="#1C1B19" text-anchor="middle">Failure histories</text>
+<text x="1393.0" y="160.0" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="19" font-weight="400" fill="#5E5B55" text-anchor="middle">cutoff, last sweep, §8</text>
+<rect x="1498" y="98" width="12" height="12" fill="#2B5C9E"/>
+<line x1="1216" y1="136.0" x2="1264" y2="136.0" stroke="#1C1B19" stroke-width="2"/><polygon points="1264,136.0 1252.9,140.7 1252.9,131.3" fill="#1C1B19"/>
+<rect x="60" y="330" width="250" height="92" rx="8" fill="#FBF8F1" stroke="#B7791F" stroke-width="3"/>
+<text x="185.0" y="372.0" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="23" font-weight="600" fill="#1C1B19" text-anchor="middle">Certificate</text>
+<text x="185.0" y="400.0" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="19" font-weight="400" fill="#5E5B55" text-anchor="middle">Proposition 2.1</text>
+<rect x="290" y="338" width="12" height="12" fill="#2B5C9E"/>
+<rect x="362" y="330" width="250" height="92" rx="8" fill="#FBF8F1" stroke="#B7791F" stroke-width="3"/>
+<text x="487.0" y="372.0" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="23" font-weight="600" fill="#1C1B19" text-anchor="middle">Spectral readout</text>
+<text x="487.0" y="400.0" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="19" font-weight="400" fill="#5E5B55" text-anchor="middle">Proposition 9.2, §9</text>
+<rect x="592" y="338" width="12" height="12" fill="#2B5C9E"/>
+<line x1="310" y1="376.0" x2="358" y2="376.0" stroke="#1C1B19" stroke-width="2"/><polygon points="358,376.0 346.9,380.7 346.9,371.3" fill="#1C1B19"/>
+<rect x="664" y="330" width="250" height="92" rx="8" fill="#FBF8F1" stroke="#B7791F" stroke-width="3"/>
+<text x="789.0" y="372.0" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="23" font-weight="600" fill="#1C1B19" text-anchor="middle">Theorem 1.1</text>
+<text x="789.0" y="400.0" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="19" font-weight="400" fill="#5E5B55" text-anchor="middle">manuscript</text>
+<rect x="894" y="338" width="12" height="12" fill="#2B5C9E"/>
+<line x1="612" y1="376.0" x2="660" y2="376.0" stroke="#1C1B19" stroke-width="2"/><polygon points="660,376.0 648.9,380.7 648.9,371.3" fill="#1C1B19"/>
+<rect x="966" y="330" width="250" height="92" rx="8" fill="#FBF8F1" stroke="#2B5C9E" stroke-width="3"/>
+<text x="1091.0" y="372.0" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="23" font-weight="600" fill="#1C1B19" text-anchor="middle">Transport</text>
+<text x="1091.0" y="400.0" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="19" font-weight="400" fill="#5E5B55" text-anchor="middle">conventions, law, sign</text>
+<rect x="1196" y="338" width="12" height="12" fill="#2B5C9E"/>
+<line x1="914" y1="376.0" x2="962" y2="376.0" stroke="#1C1B19" stroke-width="2"/><polygon points="962,376.0 950.9,380.7 950.9,371.3" fill="#1C1B19"/>
+<rect x="1268" y="330" width="250" height="92" rx="8" fill="#FBF8F1" stroke="#2B5C9E" stroke-width="3"/>
+<text x="1393.0" y="372.0" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="23" font-weight="600" fill="#1C1B19" text-anchor="middle">Simon's Problem 1</text>
+<text x="1393.0" y="400.0" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="19" font-weight="400" fill="#5E5B55" text-anchor="middle">Mathlib-only statement</text>
+<rect x="1498" y="338" width="12" height="12" fill="#2B5C9E"/>
+<line x1="1216" y1="376.0" x2="1264" y2="376.0" stroke="#1C1B19" stroke-width="2"/><polygon points="1264,376.0 1252.9,380.7 1252.9,371.3" fill="#1C1B19"/>
+<path d="M 1393.0 182 L 1393.0 256.0 L 185.0 256.0 L 185.0 326" fill="none" stroke="#1C1B19" stroke-width="2"/>
+<line x1="185.0" y1="310" x2="185.0" y2="327" stroke="#1C1B19" stroke-width="2"/><polygon points="185.0,327 180.3,315.9 189.7,315.9" fill="#1C1B19"/>
+<text x="60" y="50" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="22" font-weight="400" fill="#5E5B55" text-anchor="start">certificate construction (finite volume)</text>
+<text x="60" y="290" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="20" font-weight="400" fill="#1C1B19" text-anchor="start"></text>
+<rect x="60" y="484" width="26" height="18" rx="3" fill="#FBF8F1" stroke="#B7791F" stroke-width="3"/>
+<text x="96" y="500" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="20" font-weight="400" fill="#B7791F" text-anchor="start">claimed in the manuscript</text>
+<rect x="420" y="484" width="26" height="18" rx="3" fill="#FBF8F1" stroke="#2B5C9E" stroke-width="3"/>
+<text x="456" y="500" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="20" font-weight="400" fill="#2B5C9E" text-anchor="start">added by the formalization</text>
+<rect x="780" y="486" width="12" height="12" fill="#2B5C9E"/>
+<text x="800" y="500" font-family="'Source Sans 3', KaTeX_MainFB, sans-serif" font-size="20" font-weight="400" fill="#2B5C9E" text-anchor="start">step proved in the Lean formalization</text>
+</svg>
